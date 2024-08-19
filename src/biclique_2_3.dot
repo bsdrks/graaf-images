@@ -1,7 +1,7 @@
 digraph {
     node [shape=circle, fontname="Operator Mono"];
     edge [arrowsize=0.5];
-    layout=dot;
+    layout=circo;
     pad=0.2;
 
     subgraph cluster_0 {
