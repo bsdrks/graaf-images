@@ -1,8 +1,8 @@
 digraph {
     node [shape=circle, fontname="Operator Mono"];
     edge [arrowsize=0.5];
-    layout=neato;
-    normalize=true;
+    layout=circo;
+    pad=0.2;
 
     0 [label="0"];
     1 [label="1"];

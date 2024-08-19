@@ -1,0 +1,15 @@
+digraph {
+    node [shape=circle, fontname="Operator Mono"];
+    edge [arrowsize=0.5];
+    layout=neato;
+    pad=0.2;
+    fontsize=12;
+    fontname="Operator Mono";
+
+    1 [label="1"];
+    2 [label="2"];
+    3 [label="3"];
+    0 [label="0"];
+
+    0 -> 1 -> 2 -> 3 -> 0 [color="white"];
+}
