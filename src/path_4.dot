@@ -3,9 +3,6 @@ digraph {
     edge [arrowsize=0.5];
     layout=circo;
     pad=0.2;
-    fontsize=12;
-    fontname="Operator Mono";
-    label="Path::path(4)";
 
     0 [label="0"];
     1 [label="1"];
