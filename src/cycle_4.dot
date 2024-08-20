@@ -1,11 +1,11 @@
 digraph {
-    node [shape=circle, fontname="Operator Mono"];
+    node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.5];
     layout=neato;
     normalize=true;
     pad=0.2;
     fontsize=12;
-    fontname="Operator Mono";
+    fontname="monospace";
 
     0 [label="0"];
     2 [label="2"];

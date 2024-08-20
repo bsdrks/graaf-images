@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname="Operator Mono"];
+    node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.5];
     layout=circo;
     pad=0.2;
