@@ -1,10 +1,8 @@
 digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.5];
-    layout=neato;
+    layout=circo;
     pad=0.2;
-    fontsize=12;
-    fontname="monospace";
 
     0 [label="0"];
     1 [label="1"];
