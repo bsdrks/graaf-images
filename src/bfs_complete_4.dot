@@ -8,10 +8,14 @@ digraph {
     0 [style=bold];
     1 [style=bold];
     2 [style=bold];
-    3 [color=lightgray];
+    3 [style=bold];
 
+    0 -> {2, 3} [dir=both, color=lightgray];
     0 -> 1 [style=bold, color=red];
+    1 -> 0 [color=lightgray];
     1 -> 2 [style=bold, color=red];
-    2 -> 3 [style=invis];
-    3 -> 0 [color=lightgray];
+    2 -> 1 [color=lightgray];
+    2 -> 3 [style=bold, color=red];
+    3 -> 1 [dir=both, color=lightgray];
+    3 -> 2 [color=lightgray];
 }
