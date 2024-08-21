@@ -1,0 +1,15 @@
+digraph {
+    node [shape=circle, fontname="monospace"];
+    edge [arrowsize=0.5, fontname="monospace"];
+    layout=circo;
+    pad=0.2;
+
+    0 [label="0", style=bold, xlabel="0"];
+    1 [label="1", style=bold, xlabel="1"];
+    2 [label="2", style=bold, xlabel="2"];
+    3 [label="3"];
+
+    0 -> 1 [style=bold];
+    1 -> 2 [style=bold];
+    3 -> 0;
+}

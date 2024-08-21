@@ -1,0 +1,30 @@
+digraph {
+    node [shape=circle, fontname="monospace"];
+    edge [arrowsize=0.5, fontname="monospace"];
+    layout=circo;
+    pad=0.2;
+
+    0 [label="0"];
+    1 [label="1"];
+    2 [label="2"];
+    3 [label="3"];
+    4 [label="4"];
+    5 [label="5"];
+    6 [label="6"];
+    7 [label="7"];
+    8 [label="8"];
+    9 [label="9"];
+    10 [label="10"];
+    11 [label="11"];
+
+    0 -> {1} [dir=both];
+    1 -> {2} [dir=both];
+    1 -> {4};
+    3 -> {4, 7} [dir=both];
+    3 -> {2, 5, 10, 11};
+    5 -> {6} [dir=both];
+    6 -> {10} [dir=both];
+    8 -> {7, 10};
+    9 -> {11} [dir=both];
+    9 -> {7};
+}
