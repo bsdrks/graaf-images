@@ -1,14 +1,10 @@
 digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.5, fontname="monospace"];
-    forcelabels=true;
     layout=circo;
     pad=0.2;
 
-    0 [style=bold];
-    1 [style=bold];
-    2 [style=bold];
-    3 [style=bold];
+    0, 1, 2, 3 [style=bold];
 
     0 -> {2, 3} [dir=both, color=lightgray];
     0 -> 1 [style=bold, color=red];
