@@ -1,12 +1,11 @@
 digraph {
     node [shape=circle, fontname="monospace"];
-    edge [arrowsize=0.5, fontname="monospace", fontsize=9];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=dot;
     pad=0.2;
     ranksep=0.2;
 
     0 [style=bold];
-    0, 1, 2, 3, 4, 5;
 
     0 -> 1 [label=" 8", color=red, style=bold];
     0 -> 2 [label="4"];

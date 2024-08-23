@@ -1,21 +1,8 @@
 digraph {
-    node [shape=circle, fontname="monospace"];
-    edge [arrowsize=0.5, fontname="monospace"];
-    layout=circo;
+    node [shape=circle, fontname="monospace", fixedsize=true, width=0.5];
+    edge [arrowsize=0.5];
+    layout=neato;
     pad=0.2;
-
-    0 [label="0"];
-    1 [label="1"];
-    2 [label="2"];
-    3 [label="3"];
-    4 [label="4"];
-    5 [label="5"];
-    6 [label="6"];
-    7 [label="7"];
-    8 [label="8"];
-    9 [label="9"];
-    10 [label="10"];
-    11 [label="11"];
 
     0 -> {1} [dir=both];
     1 -> {2} [dir=both];

@@ -1,0 +1,13 @@
+digraph {
+    node [shape=circle, fontname="monospace"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    pad=0.2;
+
+    0 -> {1} [dir=both, label="1"];
+    0 -> {3} [dir=both, label=" 1"];
+    1 -> {2} [dir=both, label=" 1"];
+    2 -> {3} [dir=both, label="1"];
+    3 -> {4} [dir=both, label="1"];
+    4 -> {5} [dir=both, label="1"];
+}

@@ -23,9 +23,9 @@
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>0&#45;&gt;1</title>
-<path fill="none" stroke="black" d="M42.71,-18C60.3,-18 83.84,-18 101.41,-18"/>
-<polygon fill="black" stroke="black" points="42.83,-16.25 37.83,-18 42.83,-19.75 42.83,-16.25"/>
-<polygon fill="black" stroke="black" points="101.08,-19.75 106.08,-18 101.08,-16.25 101.08,-19.75"/>
+<path fill="none" stroke="black" d="M43.75,-18C60.8,-18 83.08,-18 100.15,-18"/>
+<polygon fill="black" stroke="black" points="43.83,-15.9 37.83,-18 43.83,-20.1 43.83,-15.9"/>
+<polygon fill="black" stroke="black" points="100.08,-20.1 106.08,-18 100.08,-15.9 100.08,-20.1"/>
 </g>
 </g>
 </svg>

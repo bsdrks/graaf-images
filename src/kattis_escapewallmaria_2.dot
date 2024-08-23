@@ -1,12 +1,9 @@
 digraph {
     node [shape=circle, fontname="monospace", fixedsize=true, width=0.6, height=0.6];
-    edge [arrowsize=0.5, fontname="monospace", weight=1000];
-    layout=dot;
+    edge [arrowsize=0.6, fontname="monospace"];
     pad=0.2;
     nodesep=0.4;
     ranksep=0.4;
-    splines=line;
-    // concentrate=true;
 
     5 [style=bold];
     6 [style=bold];

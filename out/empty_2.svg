@@ -23,14 +23,14 @@
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>0&#45;&gt;1</title>
-<path fill="none" stroke="white" d="M35.35,-23.11C53.43,-25.07 81.88,-25.27 102.09,-23.72"/>
-<polygon fill="white" stroke="white" points="102,-25.48 106.82,-23.29 101.69,-21.99 102,-25.48"/>
+<path fill="none" stroke="white" d="M35.35,-23.11C53.12,-25.04 80.9,-25.26 101.03,-23.8"/>
+<polygon fill="white" stroke="white" points="101.03,-25.9 106.82,-23.28 100.66,-21.72 101.03,-25.9"/>
 </g>
 <!-- 1&#45;&gt;0 -->
 <g id="edge2" class="edge">
 <title>1&#45;&gt;0</title>
-<path fill="none" stroke="white" d="M108.65,-12.89C90.57,-10.93 62.12,-10.73 41.91,-12.28"/>
-<polygon fill="white" stroke="white" points="42,-10.52 37.18,-12.71 42.31,-14.01 42,-10.52"/>
+<path fill="none" stroke="white" d="M108.65,-12.89C90.88,-10.96 63.1,-10.74 42.97,-12.2"/>
+<polygon fill="white" stroke="white" points="42.97,-10.1 37.18,-12.72 43.34,-14.28 42.97,-10.1"/>
 </g>
 </g>
 </svg>

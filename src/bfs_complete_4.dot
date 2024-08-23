@@ -1,6 +1,6 @@
 digraph {
     node [shape=circle, fontname="monospace"];
-    edge [arrowsize=0.5, fontname="monospace"];
+    edge [arrowsize=0.6, fontname="monospace"];
     layout=circo;
     pad=0.2;
 
