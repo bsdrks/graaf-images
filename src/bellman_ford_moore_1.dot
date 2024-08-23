@@ -8,18 +8,18 @@ digraph {
     0 [style=bold];
 
     0 -> 1 [label=" 8", color=red, style=bold];
-    0 -> 2 [label="4"];
+    0 -> 2 [label="4", color=lightgray];
     1 -> 2 [label=" -5", color=red, style=bold];
     2 -> 3 [label=" -2", color=red, style=bold];
-    2 -> 4 [label=" 4"];
+    2 -> 4 [label=" 4", color=lightgray];
     3 -> 5 [label=" -2", color=red, style=bold];
-    4 -> 3 [label="10"];
-    4 -> 5 [label=" 9"];
-    5 -> 3 [label=" 5"];
+    4 -> 3 [label="10", color=lightgray];
+    4 -> 5 [label=" 9", color=lightgray];
+    5 -> 3 [label=" 5", color=lightgray];
     5 -> 4 [label="-3", color=red, style=bold];
 
-    0 -> 2 [label="3", style=dotted];
-    0 -> 3 [label=" 1", style=dotted];
-    0 -> 4 [label=" -4", style=dotted];
-    0 -> 5 [label=" -1", style=dotted];
+    0 -> 2 [label="3", style=dashed];
+    0 -> 3 [label=" 1", style=dashed];
+    0 -> 4 [label=" -4", style=dashed];
+    0 -> 5 [label=" -1", style=dashed];
 }
