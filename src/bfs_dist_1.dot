@@ -7,13 +7,11 @@ digraph {
     pad=0.2;
     splines=line
 
-    3 [color=lightgray];
-    0 [style=bold];
-    1 [style=bold];
-    2, 4, 5 [style=bold];
+    3 [color="#aaaaaa", fontcolor="#aaaaaa"];
+    0, 1, 2, 4, 5 [style=bold, color=red];
 
     0 -> 1 [style=bold, color=red, headlabel="d=1  ", taillabel="d=0  "];
-    3 -> 0 [color=lightgray];
+    3 -> 0 [color="#aaaaaa"];
     1 -> 2 [style=bold, color=red, headlabel="   d=2"];
     2 -> 3 [style=invis];
     1 -> 4 [style=bold, color=red, headlabel="d=2   "];

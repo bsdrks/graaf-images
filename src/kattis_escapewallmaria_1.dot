@@ -5,12 +5,6 @@ digraph {
     nodesep=0.4;
     ranksep=0.4;
 
-    5 [style=bold];
-    6 [style=bold];
-    9 [style=bold];
-    12 [style=bold];
-    13 [style=bold];
-
     5 -> {6, 9} [dir=both];
     9 -> {13} [dir=both];
     {12} -> 13;

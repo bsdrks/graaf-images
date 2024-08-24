@@ -5,11 +5,11 @@ digraph {
     pad=0.2;
     ranksep=0.2;
 
-    0 [style=bold];
+    0 [style=bold, color=red];
 
-    0 -> 1 [label=" -2", color=lightgray];
-    1 -> 2 [label=" -1", color=lightgray];
-    2 -> 0 [label="  -1", color=lightgray];
+    0 -> 1 [label=" -2", color="#aaaaaa"];
+    1 -> 2 [label=" -1", color="#aaaaaa"];
+    2 -> 0 [label="  -1", color="#aaaaaa"];
 
     0 -> 2 [label=" -∞ ", style=dashed, fontsize=12];
     1 -> 0 [label="-∞ ", style=dashed, fontsize=12];

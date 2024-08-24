@@ -8,18 +8,18 @@ digraph {
     splines=line;
 
     3 [style="bold"; color=red];
-    0, 1, 2, 4 [color=red];
+    0, 1, 2, 4 [style=bold, color=red];
     7 [style=bold; color=blue];
-    6, 5 [color=blue];
+    6, 5 [style=bold, color=blue];
 
     3 -> 0 [style=bold; color=red; headlabel="d=1 ", taillabel="d=0 "];
     0 -> 1 [style=bold; color=red; headlabel="   d=2"];
     1 -> 2 [style=bold; color=red; headlabel="d=3  "];
     1 -> 4 [style=bold; color=red; headlabel="d=3   "];
-    2 -> 3 [color=lightgray];
-    2 -> 5 [color=lightgray];
-    2 -> 6 [color=lightgray];
+    2 -> 3 [color="#aaaaaa"];
+    2 -> 5 [color="#aaaaaa"];
+    2 -> 6 [color="#aaaaaa"];
     6 -> 5 [style=bold; color=blue; headlabel="   d=2"];
-    6 -> 7 [color=lightgray];
+    6 -> 7 [color="#aaaaaa"];
     7 -> 6 [style=bold; color=blue; headlabel="d=1  ", taillabel="d=0  "];
 }

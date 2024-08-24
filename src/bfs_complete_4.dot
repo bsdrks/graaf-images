@@ -4,14 +4,14 @@ digraph {
     layout=circo;
     pad=0.2;
 
-    0, 1, 2, 3 [style=bold];
+    0, 1, 2, 3 [style=bold, color=red];
 
-    0 -> {2, 3} [dir=both, color=lightgray];
+    0 -> {2, 3} [dir=both, color="#aaaaaa"];
     0 -> 1 [style=bold, color=red];
-    1 -> 0 [color=lightgray];
+    1 -> 0 [color="#aaaaaa"];
     1 -> 2 [style=bold, color=red];
-    2 -> 1 [color=lightgray];
+    2 -> 1 [color="#aaaaaa"];
     2 -> 3 [style=bold, color=red];
-    3 -> 1 [dir=both, color=lightgray];
-    3 -> 2 [color=lightgray];
+    3 -> 1 [dir=both, color="#aaaaaa"];
+    3 -> 2 [color="#aaaaaa"];
 }
