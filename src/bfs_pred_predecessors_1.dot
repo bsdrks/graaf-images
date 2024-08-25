@@ -16,8 +16,8 @@ digraph {
     2 -> 3 [style=invis];
     1 -> 4 [style=bold, color=red];
     2 -> 5 [style=bold, color=red];
-    5 -> 2 [color=blue];
-    2 -> 1 [color=blue];
-    4 -> 1 [color=blue];
-    1 -> 0 [color=blue];
+    5 -> 2 [style=dashed];
+    2 -> 1 [style=dashed];
+    4 -> 1 [style=dashed];
+    1 -> 0 [style=dashed];
 }

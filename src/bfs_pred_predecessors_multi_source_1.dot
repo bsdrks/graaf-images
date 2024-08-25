@@ -1,0 +1,31 @@
+digraph {
+    node [shape=circle, fontname="monospace"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    scale=1.0;
+    normalize=true;
+    pad=0.2;
+    splines=line;
+
+    3 [style="bold"; color=red];
+    0, 1, 2, 4 [style=bold, color=red];
+    7 [style=bold; color=blue];
+    6, 5 [style=bold, color=blue];
+
+    3 -> 0 [style=bold; color=red];
+    0 -> 1 [style=bold; color=red];
+    1 -> 2 [style=bold; color=red];
+    1 -> 4 [style=bold; color=red];
+    2 -> 3 [color="#aaaaaa"];
+    2 -> 5 [color="#aaaaaa"];
+    2 -> 6 [color="#aaaaaa"];
+    6 -> 5 [style=bold; color=blue];
+    6 -> 7 [color="#aaaaaa"];
+    7 -> 6 [style=bold; color=blue];
+    4 -> 1 [style=dashed];
+    2 -> 1 [style=dashed];
+    1 -> 0 [style=dashed];
+    0 -> 3 [style=dashed];
+    5 -> 6 [style=dashed];
+    6 -> 7 [style=dashed];
+}
