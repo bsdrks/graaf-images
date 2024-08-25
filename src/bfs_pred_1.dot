@@ -10,9 +10,9 @@ digraph {
     3 [color="#aaaaaa", fontcolor="#aaaaaa"];
     0, 1, 2, 4, 5 [style=bold, color=red];
 
-    0 -> 1 [style=bold, color=red, headlabel="p=0  ", taillabel="p={}  "];
+    0 -> 1 [style=bold, color=red, headlabel="p=0  ", taillabel="p=⊥  "];
     3 -> 0 [color="#aaaaaa"];
-    1 -> 2 [style=bold, color=red, headlabel="  p=1"];
+    1 -> 2 [style=bold, color=red, headlabel="   p=1"];
     2 -> 3 [style=invis];
     1 -> 4 [style=bold, color=red, headlabel="p=1   "];
     2 -> 5 [style=bold, color=red, headlabel="   p=2 "];

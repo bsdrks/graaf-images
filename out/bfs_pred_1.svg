@@ -38,7 +38,7 @@
 <path fill="none" stroke="red" stroke-width="2" d="M178.87,-160.58C178.87,-145.51 178.87,-123.96 178.87,-107.18"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="180.97,-108.87 178.87,-102.87 176.77,-108.87 180.97,-108.87"/>
 <text text-anchor="middle" x="165.75" y="-102.55" font-family="monospace" font-size="9.00">p=0 &#160;</text>
-<text text-anchor="middle" x="163.12" y="-152.03" font-family="monospace" font-size="9.00">p={} &#160;</text>
+<text text-anchor="middle" x="167.25" y="-152.03" font-family="monospace" font-size="9.00">p=⊥ &#160;</text>
 </g>
 <!-- 2 -->
 <g id="node4" class="node">
@@ -51,7 +51,7 @@
 <title>1&#45;&gt;2</title>
 <path fill="none" stroke="red" stroke-width="2" d="M160.58,-81.64C145.51,-81.64 123.96,-81.64 107.18,-81.64"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="108.87,-79.54 102.87,-81.64 108.87,-83.74 108.87,-79.54"/>
-<text text-anchor="middle" x="112.97" y="-84.34" font-family="monospace" font-size="9.00"> &#160;p=1</text>
+<text text-anchor="middle" x="115.6" y="-84.34" font-family="monospace" font-size="9.00"> &#160;&#160;p=1</text>
 </g>
 <!-- 4 -->
 <g id="node5" class="node">
