@@ -26,7 +26,7 @@
 <path fill="none" stroke="black" d="M68.63,-36.12C58.61,-46.14 46.2,-58.56 36.17,-68.59"/>
 <polygon fill="black" stroke="black" points="69.99,-37.73 72.75,-32 67.02,-34.76 69.99,-37.73"/>
 <polygon fill="black" stroke="black" points="34.7,-67.08 31.94,-72.81 37.67,-70.05 34.7,-67.08"/>
-<text text-anchor="middle" x="49.78" y="-55.05" font-family="monospace" font-size="9.00">1</text>
+<text text-anchor="middle" x="41.9" y="-55.05" font-family="monospace" font-size="9.00"> 1 &#160;</text>
 </g>
 <!-- 3 -->
 <g id="node3" class="node">
@@ -76,7 +76,7 @@
 <path fill="none" stroke="black" d="M104.88,-137.39C114.9,-127.37 127.31,-114.95 137.34,-104.92"/>
 <polygon fill="black" stroke="black" points="103.52,-135.78 100.76,-141.51 106.49,-138.75 103.52,-135.78"/>
 <polygon fill="black" stroke="black" points="138.81,-106.43 141.57,-100.7 135.84,-103.46 138.81,-106.43"/>
-<text text-anchor="middle" x="118.48" y="-123.86" font-family="monospace" font-size="9.00">1</text>
+<text text-anchor="middle" x="110.61" y="-123.86" font-family="monospace" font-size="9.00"> 1 &#160;</text>
 </g>
 <!-- 5 -->
 <g id="node6" class="node">
