@@ -8,16 +8,14 @@ digraph {
     splines=line
 
     3 [color="#aaaaaa", fontcolor="#aaaaaa"];
-    0, 1, 2, 4, 5 [style=bold, color=red];
+    0, 1, 2 [style=bold, color=red];
+    4 [color="#aaaaaa", fontcolor="#aaaaaa"];
+    5 [style=bold, color=red];
 
     0 -> 1 [style=bold, color=red];
     3 -> 0 [color="#aaaaaa"];
     1 -> 2 [style=bold, color=red];
     2 -> 3 [style=invis];
-    1 -> 4 [style=bold, color=red];
+    1 -> 4 [color="#aaaaaa"];
     2 -> 5 [style=bold, color=red];
-    5 -> 2 [style=dashed];
-    2 -> 1 [style=dashed];
-    4 -> 1 [style=dashed];
-    1 -> 0 [style=dashed];
 }
