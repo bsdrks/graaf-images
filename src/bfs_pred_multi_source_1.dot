@@ -13,7 +13,7 @@ digraph {
     6, 5 [style=bold, color=blue];
 
     3 -> 0 [style=bold; color=red; headlabel="p=3 ", taillabel=" p=⊥ "];
-    0 -> 1 [style=bold; color=red; headlabel="   p=1"];
+    0 -> 1 [style=bold; color=red; headlabel="   p=0"];
     1 -> 2 [style=bold; color=red; headlabel="p=1  "];
     1 -> 4 [style=bold; color=red; headlabel="p=1   "];
     2 -> 3 [color="#aaaaaa"];

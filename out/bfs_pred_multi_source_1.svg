@@ -39,7 +39,7 @@
 <title>0&#45;&gt;1</title>
 <path fill="none" stroke="red" stroke-width="2" d="M151.78,-338.5C145.23,-327.14 136.27,-311.63 128.98,-299"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="131.67,-299.46 126.85,-295.32 128.03,-301.56 131.67,-299.46"/>
-<text text-anchor="middle" x="141.09" y="-295.39" font-family="monospace" font-size="9.00"> &#160;&#160;p=1</text>
+<text text-anchor="middle" x="141.09" y="-295.39" font-family="monospace" font-size="9.00"> &#160;&#160;p=0</text>
 </g>
 <!-- 2 -->
 <g id="node4" class="node">
