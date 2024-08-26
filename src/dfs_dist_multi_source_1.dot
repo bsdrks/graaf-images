@@ -1,0 +1,24 @@
+digraph {
+    node [shape=circle, fontname="monospace"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    scale=1.0;
+    normalize=true;
+    pad=0.2;
+    splines=line;
+
+    2 [color="#aaaaaa", fontcolor="#aaaaaa"];
+    3, 0, 1, 4 [style="bold"; color=red];
+    5, 6, 7 [style="bold"; color=blue];
+
+    3 -> 0 [style=bold; color=red; headlabel="d=1  ", taillabel="d=0  "];
+    0 -> 1 [style=bold; color=red; headlabel="   d=2"];
+    1 -> 2 [style=invis];
+    1 -> 4 [style=bold; color=red; headlabel="   d=3"];
+    2 -> 3 [color="#aaaaaa"];
+    2 -> 5 [color="#aaaaaa"];
+    2 -> 6 [color="#aaaaaa"];
+    6 -> 5 [style=bold; color=blue; headlabel="   d=2"];
+    6 -> 7 [color="#aaaaaa"];
+    7 -> 6 [style=bold; color=blue; taillabel="d=0  ", headlabel="   d=1"];
+}
