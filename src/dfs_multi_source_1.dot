@@ -11,14 +11,87 @@ digraph {
     3, 0, 1, 4 [style="bold"; color=red];
     5, 6, 7 [style="bold"; color=blue];
 
-    3 -> 0 [style=bold; color=red; headlabel="t=4  ", taillabel="t=3  "];
-    0 -> 1 [style=bold; color=red; headlabel="   t=5"];
+    3 -> 0 [
+        style=bold; 
+        color=red; 
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="0">
+                <tr>
+                    <td>t=4 </td>
+                </tr>
+            </table>
+        >,
+        taillabel=<
+            <table border="0" cellpadding="2" cellspacing="0">
+                <tr>
+                    <td>t=3 </td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 1 [
+        style=bold; 
+        color=red; 
+        headlabel=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td> t=5 </td>
+                </tr>
+            </table>
+        >,
+    ];
+
     1 -> 2 [style=invis];
-    1 -> 4 [style=bold; color=red; headlabel="   t=6"];
+
+    1 -> 4 [
+        style=bold; 
+        color=red; 
+        headlabel=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>    t=6 </td>
+                </tr>
+            </table>
+        >
+    ];
+
     2 -> 3 [color="#aaaaaa"];
+
     2 -> 5 [color="#aaaaaa"];
+
     2 -> 6 [color="#aaaaaa"];
-    6 -> 5 [style=bold; color=blue; headlabel="   t=2"];
+
+    6 -> 5 [
+        style=bold; 
+        color=blue; 
+        headlabel=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>    t=2</td>
+                </tr>
+            </table>
+        >,
+    ];
+
     6 -> 7 [color="#aaaaaa"];
-    7 -> 6 [style=bold; color=blue; taillabel="t=0  ", headlabel="   t=1"];
+
+    7 -> 6 [
+        style=bold; 
+        color=blue; 
+        taillabel=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td> t=0  </td>
+                </tr>
+            </table>
+        >,
+        headlabel=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>    t=1</td>
+                </tr>
+            </table>
+        >,
+    ];
 }

@@ -1,0 +1,161 @@
+digraph {
+    node [shape=circle, fontname="monospace", style=bold];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    scale=1.0;
+    normalize=true;
+    pad=0.2;
+    // newrank=true;
+    // splines=line
+
+    0, 1, 2, 4 [style=bold, color=red];
+    3, 5, 6 [color=blue];
+
+    3 -> 0 [
+        color="#aaaaaa",
+        fontcolor="#aaaaaa",
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>2</b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    0 -> 1 [
+        color=red,
+        style=bold,
+        headlabel=<
+            <table border="0" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td>t=3</td>
+                </tr>
+            </table>
+        >,
+        taillabel=<
+            <table border="0">
+                <tr>
+                    <td> t=1</td>
+                </tr>
+            </table>
+            >,
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td><b>1</b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    1 -> 2 [
+        style=bold, 
+        color=red, 
+        headlabel=<
+            <table border="0">
+                <tr>
+                    <td>t=4 </td>
+                </tr>
+            </table>
+        >,
+        label=<
+            <table border="0" cellpadding="8" cellspacing="0">
+                <tr>
+                    <td><b>1</b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    2 -> 4 [
+        style=bold, 
+        color=red, 
+        headlabel=<
+            <table border="0">
+                <tr>
+                    <td>  t=5</td>
+                </tr>
+            </table>
+        >,
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>1</b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    1 -> 6 [
+        color="#aaaaaa",
+        fontcolor="#aaaaaa",
+        label=<
+            <table border="0" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td><b>5  </b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    2 -> 6 [style=invis];
+    6 -> 2 [style=invis];
+
+    4 -> 5 [
+        color="#aaaaaa",
+        fontcolor="#aaaaaa",
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td><b>     1</b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    3 -> 5 [
+        style=bold, 
+        color=blue, 
+        headlabel=<
+            <table border="0">
+                <tr>
+                    <td> t=2</td>
+                </tr>
+            </table>
+        >,
+        taillabel=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>t=0</td>
+                </tr>
+            </table>
+        >,
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td><b>1 </b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    5 -> 6 [
+        style=bold, 
+        color=blue, 
+        headlabel=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><br />t=4</td>
+                </tr>
+            </table>
+        >,
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>1</b></td>
+                </tr>
+            </table>
+        >,
+    ];
+}

@@ -51,7 +51,7 @@
 <title>1&#45;&gt;2</title>
 <path fill="none" stroke="red" stroke-width="2" d="M160.58,-81.64C145.51,-81.64 123.96,-81.64 107.18,-81.64"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="108.87,-79.54 102.87,-81.64 108.87,-83.74 108.87,-79.54"/>
-<text text-anchor="middle" x="115.6" y="-84.34" font-family="monospace" font-size="9.00"> &#160;&#160;t=2</text>
+<text text-anchor="middle" x="115.6" y="-84.34" font-family="monospace" font-size="9.00"> &#160;&#160;t=3</text>
 </g>
 <!-- 4 -->
 <g id="node5" class="node">
@@ -64,7 +64,7 @@
 <title>1&#45;&gt;4</title>
 <path fill="none" stroke="red" stroke-width="2" d="M191.75,-68.76C201.15,-59.36 214.03,-46.49 224.45,-36.06"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="224.76,-38.73 227.51,-33 221.79,-35.76 224.76,-38.73"/>
-<text text-anchor="middle" x="213.9" y="-33.56" font-family="monospace" font-size="9.00">t=4 &#160;&#160;</text>
+<text text-anchor="middle" x="213.9" y="-33.56" font-family="monospace" font-size="9.00">t=2 &#160;&#160;</text>
 </g>
 <!-- 2&#45;&gt;3 -->
 <!-- 5 -->
@@ -78,7 +78,7 @@
 <title>2&#45;&gt;5</title>
 <path fill="none" stroke="red" stroke-width="2" d="M68.76,-68.76C59.36,-59.36 46.49,-46.49 36.06,-36.06"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="38.73,-35.76 33,-33 35.76,-38.73 38.73,-35.76"/>
-<text text-anchor="middle" x="49.23" y="-33.56" font-family="monospace" font-size="9.00"> &#160;&#160;t=3 </text>
+<text text-anchor="middle" x="49.23" y="-33.56" font-family="monospace" font-size="9.00"> &#160;&#160;t=4 </text>
 </g>
 </g>
 </svg>

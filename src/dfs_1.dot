@@ -12,8 +12,8 @@ digraph {
 
     0 -> 1 [style=bold, color=red, headlabel="t=1  ", taillabel="t=0  "];
     3 -> 0 [color="#aaaaaa"];
-    1 -> 2 [style=bold, color=red, headlabel="   t=2"];
+    1 -> 2 [style=bold, color=red, headlabel="   t=3"];
     2 -> 3 [style=invis];
-    1 -> 4 [style=bold, color=red, headlabel="t=4   "];
-    2 -> 5 [style=bold, color=red, headlabel="   t=3 "];
+    1 -> 4 [style=bold, color=red, headlabel="t=2   "];
+    2 -> 5 [style=bold, color=red, headlabel="   t=4 "];
 }

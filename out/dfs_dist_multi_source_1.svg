@@ -61,8 +61,8 @@
 <title>3&#45;&gt;0</title>
 <path fill="none" stroke="red" stroke-width="2" d="M291.13,-160.58C291.13,-145.51 291.13,-123.96 291.13,-107.18"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="293.23,-108.87 291.13,-102.87 289.03,-108.87 293.23,-108.87"/>
-<text text-anchor="middle" x="278.01" y="-102.55" font-family="monospace" font-size="9.00">d=1 &#160;</text>
-<text text-anchor="middle" x="278.01" y="-152.03" font-family="monospace" font-size="9.00">d=0 &#160;</text>
+<text text-anchor="start" x="268.13" y="-104.55" font-family="monospace" font-size="9.00">d=1 </text>
+<text text-anchor="start" x="268.13" y="-150.03" font-family="monospace" font-size="9.00">d=0 </text>
 </g>
 <!-- 1 -->
 <g id="node4" class="node">
@@ -75,7 +75,7 @@
 <title>0&#45;&gt;1</title>
 <path fill="none" stroke="red" stroke-width="2" d="M272.84,-81.64C257.77,-81.64 236.21,-81.64 219.44,-81.64"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="221.13,-79.54 215.13,-81.64 221.13,-83.74 221.13,-79.54"/>
-<text text-anchor="middle" x="227.85" y="-84.34" font-family="monospace" font-size="9.00"> &#160;&#160;d=2</text>
+<text text-anchor="start" x="216.1" y="-88.34" font-family="monospace" font-size="9.00"> d=2 </text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <!-- 4 -->
@@ -89,14 +89,14 @@
 <title>1&#45;&gt;4</title>
 <path fill="none" stroke="red" stroke-width="2" d="M181.02,-68.76C171.62,-59.36 158.74,-46.49 148.32,-36.06"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="150.98,-35.76 145.26,-33 148.01,-38.73 150.98,-35.76"/>
-<text text-anchor="middle" x="158.87" y="-33.56" font-family="monospace" font-size="9.00"> &#160;&#160;d=3</text>
+<text text-anchor="start" x="143.12" y="-33.56" font-family="monospace" font-size="9.00"> &#160;&#160;&#160;d=3 </text>
 </g>
 <!-- 6&#45;&gt;5 -->
 <g id="edge8" class="edge">
 <title>6&#45;&gt;5</title>
 <path fill="none" stroke="blue" stroke-width="2" d="M53.59,-265.37C48.25,-260.03 41.97,-253.76 36.19,-247.98"/>
 <polygon fill="blue" stroke="blue" stroke-width="2" points="38.93,-247.75 33.2,-244.99 35.96,-250.72 38.93,-247.75"/>
-<text text-anchor="middle" x="46.81" y="-245.55" font-family="monospace" font-size="9.00"> &#160;&#160;d=2</text>
+<text text-anchor="start" x="31.06" y="-245.55" font-family="monospace" font-size="9.00"> &#160;&#160;&#160;d=2</text>
 </g>
 <!-- 7 -->
 <g id="node8" class="node">
@@ -115,8 +115,8 @@
 <title>7&#45;&gt;6</title>
 <path fill="none" stroke="blue" stroke-width="2" d="M121.85,-325.91C113.21,-315.18 99.73,-301.4 88.19,-291.37"/>
 <polygon fill="blue" stroke="blue" stroke-width="2" points="90.97,-290.97 85.02,-288.72 88.27,-294.19 90.97,-290.97"/>
-<text text-anchor="middle" x="98.46" y="-289.48" font-family="monospace" font-size="9.00"> &#160;&#160;d=1</text>
-<text text-anchor="middle" x="108.72" y="-317.36" font-family="monospace" font-size="9.00">d=0 &#160;</text>
+<text text-anchor="start" x="82.71" y="-289.48" font-family="monospace" font-size="9.00"> &#160;&#160;&#160;d=1</text>
+<text text-anchor="start" x="90.35" y="-317.36" font-family="monospace" font-size="9.00"> d=0 &#160;</text>
 </g>
 </g>
 </svg>
