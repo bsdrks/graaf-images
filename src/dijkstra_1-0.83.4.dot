@@ -16,7 +16,7 @@ digraph {
         headlabel=<
             <table border="0" cellpadding="5" cellspacing="0">
                 <tr>
-                    <td>t=1</td>
+                    <td>t=<b>1</b></td>
                 </tr>
             </table>
         >,
@@ -73,7 +73,7 @@ digraph {
         label=<
             <table border="0" cellpadding="3" cellspacing="0">
                 <tr>
-                    <td><b>5</b></td>
+                    <td><b>6</b></td>
                 </tr>
             </table>
         >
@@ -113,7 +113,7 @@ digraph {
         label=<
             <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b> 1</b></td>
+                    <td><b> 2</b></td>
                 </tr>
             </table>
         >

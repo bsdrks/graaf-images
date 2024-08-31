@@ -10,20 +10,21 @@ digraph {
     3 [color="#aaaaaa", fontcolor="#aaaaaa"];
     0, 1, 2, 4, 5, 6 [style=bold, color=red];
 
+    // 0 -> 1 [style=bold, color=red, headlabel="p=0  ", taillabel="p=⊥  "];
     0 -> 1 [
         color=red,
         style=bold,
         headlabel=<
             <table border="0" cellpadding="5" cellspacing="0">
                 <tr>
-                    <td>t=1</td>
+                    <td>(0,1)</td>
                 </tr>
             </table>
         >,
         taillabel=<
             <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
-                    <td>t=0</td>
+                    <td>(⊥,0)</td>
                 </tr>
             </table>
             >,
@@ -42,7 +43,7 @@ digraph {
         headlabel=<
             <table border="0">
                 <tr>
-                    <td>t=2</td>
+                    <td>(1,2)</td>
                 </tr>
             </table>
         >,
@@ -73,7 +74,7 @@ digraph {
         label=<
             <table border="0" cellpadding="3" cellspacing="0">
                 <tr>
-                    <td><b>5</b></td>
+                    <td><b>6</b></td>
                 </tr>
             </table>
         >
@@ -87,7 +88,7 @@ digraph {
         headlabel=<
             <table border="0">
                 <tr>
-                    <td>  t=3</td>
+                    <td>  (2,4)</td>
                 </tr>
             </table>
         >,
@@ -104,16 +105,16 @@ digraph {
         style=bold, 
         color=red, 
         headlabel=<
-            <table border="0">
+            <table border="0" cellpadding="7" cellspacing="0">
                 <tr>
-                    <td> t=4</td>
+                    <td>(4,5)</td>
                 </tr>
             </table>
         >,
         label=<
             <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b> 1</b></td>
+                    <td><b> 2</b></td>
                 </tr>
             </table>
         >
@@ -123,9 +124,9 @@ digraph {
         style=bold, 
         color=red, 
         headlabel=<
-            <table border="0">
+            <table border="0" cellpadding="6" cellspacing="0">
                 <tr>
-                    <td> t=5</td>
+                    <td>(5,6)</td>
                 </tr>
             </table>
         >,

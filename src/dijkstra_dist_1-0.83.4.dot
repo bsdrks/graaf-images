@@ -16,14 +16,14 @@ digraph {
         headlabel=<
             <table border="0" cellpadding="5" cellspacing="0">
                 <tr>
-                    <td>t=1</td>
+                    <td>d=1</td>
                 </tr>
             </table>
         >,
         taillabel=<
             <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
-                    <td>t=0</td>
+                    <td>d=0</td>
                 </tr>
             </table>
             >,
@@ -42,7 +42,7 @@ digraph {
         headlabel=<
             <table border="0">
                 <tr>
-                    <td>t=2</td>
+                    <td>d=2</td>
                 </tr>
             </table>
         >,
@@ -73,7 +73,7 @@ digraph {
         label=<
             <table border="0" cellpadding="3" cellspacing="0">
                 <tr>
-                    <td><b>5</b></td>
+                    <td><b>6</b></td>
                 </tr>
             </table>
         >
@@ -87,7 +87,7 @@ digraph {
         headlabel=<
             <table border="0">
                 <tr>
-                    <td>  t=3</td>
+                    <td>  d=3</td>
                 </tr>
             </table>
         >,
@@ -106,14 +106,14 @@ digraph {
         headlabel=<
             <table border="0">
                 <tr>
-                    <td> t=4</td>
+                    <td> d=5</td>
                 </tr>
             </table>
         >,
         label=<
             <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b> 1</b></td>
+                    <td><b> 2</b></td>
                 </tr>
             </table>
         >
@@ -125,7 +125,7 @@ digraph {
         headlabel=<
             <table border="0">
                 <tr>
-                    <td> t=5</td>
+                    <td> d=6</td>
                 </tr>
             </table>
         >,
