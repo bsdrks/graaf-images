@@ -1,0 +1,318 @@
+digraph {
+    node [shape=box, fontname="monospace", fontsize=15, style=filled];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    // layout=sfdp;
+    scale=5.3;
+    overlap=false;
+    overlap_scaling=6;
+    // normalize=true;
+    pad=0.2;
+    // splines=line;
+    nodesep=0.4;
+    ranksep=2.8;
+    // newrank=true;
+
+    // vertices
+
+    subgraph trait {
+        node [color="#ccffaa"];
+
+        Biclique;
+        Circuit;
+        Order;
+        Converse;
+        Empty;
+        Complement;
+        Complete;
+        Path;
+        Cycle;
+        Star;
+        Arcs;
+        Sinks;
+        Vertices;
+        Indegree;
+        Outdegree;
+        Sources;
+        Degree;
+        Size;
+        AddArc [label="AddArc"];
+        AddArcWeighted [label="AddArcWeighted"];
+        ArcWeight [label="ArcWeight"];
+        ArcsWeighted [label="ArcsWeighted"];
+        DegreeSequence [label="DegreeSequence"];
+        ErdosRenyi [label="ErdosRenyi"];
+        HasArc [label="HasArc"];
+        HasEdge [label="HasEdge"];
+        HasWalk [label="HasWalk"];
+        InNeighbors [label="InNeighbors"];
+        IndegreeSequence [label="IndegreeSequence"];
+        IsBalanced [label="IsBalanced"];
+        IsComplete [label="IsComplete"];
+        IsIsolated [label="IsIsolated"];
+        IsOriented [label="IsOriented"];
+        IsPendant [label="IsPendant"];
+        IsRegular [label="IsRegular"];
+        IsSemicomplete [label="IsSemicomplete"];
+        IsSimple [label="IsSimple"];
+        IsSpanningSubdigraph [label="IsSpanningSubdigraph"];
+        IsSubdigraph [label="IsSubdigraph"];
+        IsSuperdigraph [label="IsSuperdigraph"];
+        IsSymmetric [label="IsSymmetric"];
+        IsTournament [label="IsTournament"];
+        OutNeighbors [label="OutNeighbors"];
+        OutNeighborsWeighted [label="OutNeighborsWeighted"];
+        OutdegreeSequence [label="OutdegreeSequence"];
+        RandomTournament [label="RandomTournament"];
+        RemoveArc [label="RemoveArc"];
+        SemidegreeSequence [label="SemidegreeSequence"];
+    }
+
+    subgraph method {
+        node [color="#aaccff"];
+
+        BfsDist_distances [label="BfsDist::\ldistances()\l"];
+        BfsPred_predecessors [label="BfsPred::\lpredecessors()\l"];
+        BfsPred_shortest_path [label="BfsPred::\lshortest_path()\l"];
+
+        DfsDist_distances [label="DfsDist::\ldistances()\l"];
+        DfsPred_distances [label="DfsPred::\lpredecessors()\l"];
+        DijkstraDist_distances [label="DijkstraDist::\ldistances()\l"];
+        DijkstraPred_predecessors [label="DijkstraPred::\lpredecessors()\l"];
+        DijkstraPred_shortest_path [label="DijkstraPred::\lshortest_path()\l"];
+        DistanceMatrix_search [label="DistanceMatrix::\lsearch()\l"];
+        DistanceMatrix_search_by [label="DistanceMatrix::\lsearch_by()\l"];
+
+        PredecessorTree_center [label="PredecessorTree::\lcenter()\l"];
+        PredecessorTree_diameter [label="PredecessorTree::\ldiameter()\l"];
+        PredecessorTree_eccentricities [label="PredecessorTree::\leccentricities()\l"];
+        PredecessorTree_is_connected [label="PredecessorTree::\lis_connected()\l"];
+        PredecessorTree_periphery [label="PredecessorTree::\lperiphery()\l"];
+        bellman_ford_moore_single_source_distances [label="bellman_ford_moore::\lsingle_source_distances()\l"];
+    }
+
+    subgraph functions {
+        node [color="#ffccaa"];
+
+        floyd_warshall_distances [label="floyd_warshall::\ldistances()\l"];
+        tarjan_strongly_connected_components [label="tarjan::\lscc()\l"];
+    }
+
+    subgraph struct {
+        node [color="#ffccaa"];
+
+        Bfs;
+        BfsDist [label="BfsDist"];
+        BfsDist_Step [label="Step"];
+        BfsPred [label="BfsPred"];
+        BfsPred_Step [label="Step"];
+        Root [label="Digraph"];
+        Dfs;
+        DfsDist [label="DfsDist"];
+        DfsDist_Step [label="Step"];
+        DfsPred [label="DfsPred"];
+        DfsPred_Step [label="Step"];
+        Dijkstra;
+        DijkstraDist [label="DijkstraDist"];
+        DijkstraDist_Step [label="Step"];
+        DijkstraPred [label="DijkstraPred"];
+        DijkstraPred_Step [label="Step"];
+        DistanceMatrix [label="DistanceMatrix"];
+        PredecessorTree [label="PredecessorTree"];
+    }
+
+    subgraph impl {
+        node [color="#ffcc33"];
+
+        BfsDist_Iterator [label="Iterator\lfor BfsDist\l"];
+        BfsPred_Iterator [label="Iterator\lfor BfsPred\l"];
+        Bfs_Iterator [label="Iterator\lfor Bfs\l"];
+        Circuit [label="Circuit"];
+        Complement [label="Complement"];
+        Complete [label="Complete"];
+        Cycle [label="Cycle"];
+        Degree [label="Degree"];
+        DegreeSequence [label="DegreeSequence"];
+        DfsDist_Iterator [label="Iterator\lfor DfsDist\l"];
+        DfsPred_Iterator [label="Iterator\lfor DfsPred\l"];
+        Dfs_Iterator [label="Iterator\lfor Dfs\l"];
+        DijkstraDist_Iterator [label="Iterator\lfor DijkstraDist\l"];
+        DijkstraPred_Iterator [label="Iterator\lfor DijkstraPred\l"];
+        Dijkstra_Iterator [label="Iterator\lfor Dijkstra"];
+        ErdosRenyi [label="ErdosRenyi"];
+        HasEdge [label="HasEdge"];
+        HasWalk [label="HasWalk"];
+        InNeighbors [label="InNeighbors"];
+        IndegreeSequence [label="IndegreeSequence"];
+        IsBalanced [label="IsBalanced"];
+        IsComplete [label="IsComplete"];
+        IsComplete [label="IsComplete"];
+        IsIsolated [label="IsIsolated"];
+        IsOriented [label="IsOriented"];
+        IsPendant [label="IsPendant"];
+        IsRegular [label="IsRegular"];
+        IsSemicomplete [label="IsSemicomplete"];
+        IsSpanningSubdigraph [label="IsSpanningSubdigraph"];
+        IsSubdigraph [label="IsSubdigraph"];
+        IsSuperdigraph [label="IsSuperdigraph"];
+        IsSymmetric [label="IsSymmetric"];
+        IsTournament [label="IsTournament"];
+        OutdegreeSequence [label="OutdegreeSequence"];
+        Path [label="Path"];
+        RandomTournament [label="RandomTournament"];
+        SemidegreeSequence [label="SemidegreeSequence"];
+        Sinks [label="Sinks"];
+        Sources [label="Sources"];
+        Star [label="Star"];
+    };
+
+    // arcs
+
+    Root -> {
+        AddArc,
+        AddArcWeighted,
+        ArcWeight,
+        Arcs,
+        ArcsWeighted,
+        Biclique,
+        Circuit,
+        Converse,
+        Empty,
+        HasArc,
+        Indegree,
+        IsSimple,
+        Order,
+        OutNeighbors,
+        OutNeighborsWeighted,
+        Outdegree,
+        RemoveArc,
+        Size,
+        Vertices
+    } [style=dashed, weight=1];
+
+    AddArc -> Complement;
+    AddArc -> Complete;
+    AddArc -> Cycle;
+    AddArc -> ErdosRenyi;
+    AddArc -> Path;
+    AddArc -> RandomTournament;
+    AddArc -> Star;
+    Arcs -> InNeighbors;
+    Arcs -> IsOriented;
+    Arcs -> IsSpanningSubdigraph;
+    Arcs -> IsSubdigraph;
+    Arcs -> IsSymmetric;
+    ArcsWeighted -> bellman_ford_moore_single_source_distances;
+    ArcsWeighted -> floyd_warshall_distances;
+    Bfs -> Bfs_Iterator;
+    BfsDist -> BfsDist_Iterator;
+    BfsDist -> BfsDist_distances;
+    BfsDist_Iterator -> BfsDist_Step;
+    BfsPred -> BfsPred_Iterator;
+    BfsPred -> BfsPred_predecessors;
+    BfsPred -> BfsPred_shortest_path;
+    BfsPred_Iterator -> BfsPred_Step;
+    BfsPred_predecessors -> PredecessorTree;
+    Degree -> DegreeSequence;
+    Degree -> IsPendant;
+    Dfs -> Dfs_Iterator;
+    DfsDist -> DfsDist_Iterator;
+    DfsDist -> DfsDist_distances;
+    DfsDist_Iterator -> DfsDist_Step;
+    DfsPred -> DfsPred_Iterator;
+    DfsPred -> DfsPred_distances;
+    DfsPred_Iterator -> DfsPred_Step;
+    Dijkstra -> Dijkstra_Iterator;
+    DijkstraDist -> DijkstraDist_Iterator;
+    DijkstraDist -> DijkstraDist_distances;
+    DijkstraDist_Iterator -> DijkstraDist_Step;
+    DijkstraPred -> DijkstraPred_Iterator;
+    DijkstraPred -> DijkstraPred_predecessors;
+    DijkstraPred -> DijkstraPred_shortest_path;
+    DijkstraPred_Iterator -> DijkstraPred_Step;
+    DijkstraPred_predecessors -> PredecessorTree;
+    DistanceMatrix -> DistanceMatrix_search;
+    DistanceMatrix -> DistanceMatrix_search_by;
+    Empty -> Complement;
+    Empty -> Complete;
+    Empty -> Cycle;
+    Empty -> ErdosRenyi;
+    Empty -> Path;
+    Empty -> RandomTournament;
+    Empty -> Star;
+    HasArc -> Complement;
+    HasArc -> HasEdge;
+    HasArc -> HasWalk;
+    HasArc -> IsOriented;
+    HasArc -> IsSemicomplete;
+    HasArc -> IsSpanningSubdigraph;
+    HasArc -> IsSubdigraph;
+    HasArc -> IsSymmetric;
+    HasArc -> IsTournament;
+    HasEdge -> IsComplete;
+    Indegree -> Degree;
+    Indegree -> IndegreeSequence;
+    Indegree -> IsBalanced;
+    Indegree -> IsIsolated;
+    Indegree -> IsRegular;
+    Indegree -> SemidegreeSequence;
+    Indegree -> Sources;
+    IsSubdigraph -> IsSuperdigraph;
+    Order -> BfsDist_distances;
+    Order -> BfsPred_predecessors;
+    Order -> BfsPred_shortest_path;
+    Order -> Complement;
+    Order -> Dijkstra;
+    Order -> DijkstraDist;
+    Order -> DijkstraDist_Iterator;
+    Order -> DijkstraPred;
+    Order -> DijkstraPred_Iterator;
+    Order -> DijkstraPred_predecessors;
+    Order -> DijkstraPred_shortest_path;
+    Order -> Dijkstra_Iterator;
+    Order -> IsComplete;
+    Order -> IsSemicomplete;
+    Order -> IsTournament;
+    Order -> bellman_ford_moore_single_source_distances;
+    Order -> floyd_warshall_distances;
+    Order -> tarjan_strongly_connected_components;
+    OutNeighbors -> BfsDist_Iterator;
+    OutNeighbors -> BfsDist_distances;
+    OutNeighbors -> BfsPred_Iterator;
+    OutNeighbors -> BfsPred_predecessors;
+    OutNeighbors -> BfsPred_shortest_path;
+    OutNeighbors -> Bfs_Iterator;
+    OutNeighbors -> DfsDist_Iterator;
+    OutNeighbors -> DfsPred_Iterator;
+    OutNeighbors -> Dfs_Iterator;
+    OutNeighbors -> tarjan_strongly_connected_components;
+    OutNeighborsWeighted -> DijkstraDist_Iterator;
+    OutNeighborsWeighted -> DijkstraDist_distances;
+    OutNeighborsWeighted -> DijkstraPred_Iterator;
+    OutNeighborsWeighted -> DijkstraPred_predecessors;
+    OutNeighborsWeighted -> DijkstraPred_shortest_path;
+    OutNeighborsWeighted -> Dijkstra_Iterator;
+    Outdegree -> Degree;
+    Outdegree -> IsBalanced;
+    Outdegree -> IsIsolated;
+    Outdegree -> IsRegular;
+    Outdegree -> OutdegreeSequence;
+    Outdegree -> SemidegreeSequence;
+    Outdegree -> Sinks;
+    PredecessorTree -> PredecessorTree_center;
+    PredecessorTree -> PredecessorTree_diameter;
+    PredecessorTree -> PredecessorTree_eccentricities;
+    PredecessorTree -> PredecessorTree_is_connected;
+    PredecessorTree -> PredecessorTree_periphery;
+    Vertices -> DegreeSequence;
+    Vertices -> IndegreeSequence;
+    Vertices -> IsBalanced;
+    Vertices -> IsRegular;
+    Vertices -> IsSpanningSubdigraph;
+    Vertices -> IsSubdigraph;
+    Vertices -> OutdegreeSequence;
+    Vertices -> SemidegreeSequence;
+    Vertices -> Sinks;
+    Vertices -> Sources;
+    Vertices -> floyd_warshall_distances;
+    tarjan_strongly_connected_components -> DistanceMatrix;
+}
