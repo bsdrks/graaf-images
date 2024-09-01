@@ -1,0 +1,71 @@
+digraph {
+    node [shape=circle, fontname="monospace"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    scale=1.0;
+    normalize=true;
+    pad=0.2;
+    splines=line
+
+    3 [color="#aaaaaa", fontcolor="#aaaaaa"];
+    0, 1, 2, 4, 5 [style=bold, color=red];
+
+    0 -> 1 [
+        style=bold,
+        color=red,
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="0">
+                <tr>
+                    <td>p=0 </td>
+                </tr>
+            </table>
+        >,
+        taillabel=<
+            <table border="0" cellpadding="2" cellspacing="0">
+                <tr>
+                    <td>p=⊥ </td>
+                </tr>
+            </table>
+        >
+    ];
+
+    3 -> 0 [color="#aaaaaa"];
+
+    1 -> 2 [
+        style=bold, 
+        color=red, 
+        headlabel=<
+            <table border="0" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td>p=1 </td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    2 -> 3 [style=invis];
+
+    1 -> 4 [
+        style=bold,
+        color=red,
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="0">
+                <tr>
+                    <td>p=1   </td>
+                </tr>
+            </table>
+        >
+    ];
+
+    2 -> 5 [
+        style=bold,
+        color=red,
+        headlabel=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>    p=2</td>
+                </tr>
+            </table>
+        >
+    ];
+}
