@@ -68,7 +68,7 @@
 <path fill="none" stroke="red" stroke-width="2" d="M214.69,-55.41C199.54,-48.12 176.88,-37.2 159.94,-29.04"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="162.57,-27.98 156.25,-27.27 160.74,-31.76 162.57,-27.98"/>
 <text text-anchor="start" x="182.06" y="-45.93" font-family="monospace" font-weight="bold" font-size="9.00">1</text>
-<text text-anchor="start" x="157.52" y="-13.4" font-family="monospace" font-size="9.00"> &#160;t=6</text>
+<text text-anchor="start" x="156.52" y="-14.4" font-family="monospace" font-size="9.00"> &#160;t=6</text>
 </g>
 <!-- 2&#45;&gt;6 -->
 <!-- 5 -->

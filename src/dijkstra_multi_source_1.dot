@@ -72,7 +72,7 @@ digraph {
         style=bold, 
         color=red, 
         headlabel=<
-            <table border="0">
+            <table border="0" cellpadding="3" cellspacing="0">
                 <tr>
                     <td>  t=6</td>
                 </tr>
