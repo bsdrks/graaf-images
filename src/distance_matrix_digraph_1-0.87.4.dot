@@ -1,0 +1,223 @@
+digraph {
+    node [shape=circle, style=bold; fontname="monospace", fixedsize=true, width="0.85"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    normalize=true;
+    pad=0.2;
+    newrank=true;
+    ranksep=0.2;
+
+    0 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    1 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    2 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>2</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    3 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>3</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    4 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>4</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    5 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>5</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    6 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>6</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    0 -> 1 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>5</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    0 -> 2 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>3</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    0 -> 3 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>2</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    0 -> 4 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>4</td>
+                </tr>
+            </table>
+        >,
+    ];
+    1 -> 0 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>3</td>
+                </tr>
+            </table>
+        >,
+    ];
+    1 -> 3 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    1 -> 4 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>2</td>
+                </tr>
+            </table>
+        >,
+    ];
+    2 -> 6 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>4</td>
+                </tr>
+            </table>
+        >,
+    ];
+    3 -> 4 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    3 -> 5 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >,
+    ];
+    4 -> 2 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>3</td>
+                </tr>
+            </table>
+        >,
+    ];
+    5 -> 6 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    6 -> 0 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>9</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+
+    6 -> 1 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>8</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    6 -> 2 [
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>5</td>
+                </tr>
+            </table>
+        >,
+    ];
+}
