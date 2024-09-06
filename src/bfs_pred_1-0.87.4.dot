@@ -1,0 +1,116 @@
+digraph {
+    node [shape=circle, fontname="monospace", fixedsize=true, width="0.85"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    scale=1.0;
+    normalize=true;
+    pad=0.2;
+    splines=line
+
+    3 [color="#aaaaaa", fontcolor="#aaaaaa"];
+    0, 1, 2, 4, 5 [style=bold, color=red];
+
+    0 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>0</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">p(0)=<b>⊥</b></font></td>
+                </tr>
+            </table>
+        >,
+        color=red,
+        style=bold
+    ];
+
+    1 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>1</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">p(1)=<b>0</b></font></td>
+                </tr>
+            </table>
+        >,
+        color=red,
+        style=bold
+    ];
+
+    2 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>2</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">p(2)=<b>1</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    3 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>3</b></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    4 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>4</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">p(4)=<b>1</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    5 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>5</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">p(5)=<b>2</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+
+    0 -> 1 [
+        style=bold;
+        color=red;
+    ];
+
+    3 -> 0 [color="#aaaaaa"];
+
+    1 -> 2 [
+        style=bold;
+        color=red;
+    ];
+
+    2 -> 3 [style=invis];
+
+    1 -> 4 [
+        style=bold;
+        color=red;
+    ];
+
+    2 -> 5 [
+        style=bold;
+        color=red;
+    ];
+}

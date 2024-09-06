@@ -1,0 +1,149 @@
+digraph {
+    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.85"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    scale=1.0;
+    normalize=true;
+    pad=0.2;
+    splines=line;
+
+    3, 0, 1, 2, 4 [style="bold"; color=red];
+    7, 6, 5 [style=bold; color=blue];
+
+    0 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>0</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(0)=<b>1</b></font></td>
+                </tr>
+            </table>
+        >,
+        color=red,
+        style=bold
+    ];
+
+    1 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>1</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(1)=<b>2</b></font></td>
+                </tr>
+            </table>
+        >,
+        color=red,
+        style=bold
+    ];
+
+    2 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>2</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(2)=<b>3</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    3 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>3</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(3)=<b>0</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    4 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>4</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(4)=<b>3</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    5 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>5</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(5)=<b>2</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    6 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>6</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(6)=<b>1</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    7 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><b>7</b></td>
+                </tr>
+                <tr>
+                    <td><font point-size="10">d(7)=<b>0</b></font></td>
+                </tr>
+            </table>
+        >,
+    ];
+
+
+
+    3 -> 0 [
+        style=bold;
+        color=red;
+    ];
+
+    0 -> 1 [style=bold; color=red];
+
+    1 -> 2 [style=bold; color=red];
+
+    1 -> 4 [style=bold; color=red];
+
+    2 -> 3 [color="#aaaaaa"];
+
+    2 -> 5 [color="#aaaaaa"];
+
+    2 -> 6 [color="#aaaaaa"];
+
+    6 -> 5 [style=bold; color=blue];
+
+    6 -> 7 [color="#aaaaaa"];
+
+    7 -> 6 [style=bold; color=blue];
+
+    1 -> 5 [style=invis];
+
+    // 5 -> 6 [style=invis];
+}

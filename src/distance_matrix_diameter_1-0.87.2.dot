@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.9"];
+    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.85"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     // layout=neato;
     // scale=3.0;
@@ -16,7 +16,7 @@ digraph {
                     <td><b>0</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="11">d(1)=<b>16</b></font></td>
+                    <td><font point-size="10">d(0)=<b>16</b></font></td>
                 </tr>
             </table>
         >,
@@ -29,7 +29,7 @@ digraph {
                     <td><b>1</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="11">d(1)=<b>15</b></font></td>
+                    <td><font point-size="10">d(1)=<b>15</b></font></td>
                 </tr>
             </table>
         >,
@@ -42,7 +42,7 @@ digraph {
                     <td><b>2</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="11">d(2)=<b>3</b></font></td>
+                    <td><font point-size="10">d(2)=<b>3</b></font></td>
                 </tr>
             </table>
         >,
@@ -55,7 +55,7 @@ digraph {
                     <td><b>3</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="11">d(3)=<b>16</b></font></td>
+                    <td><font point-size="10">d(3)=<b>16</b></font></td>
                 </tr>
             </table>
         >,
@@ -68,7 +68,7 @@ digraph {
                     <td><b>4</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="11">e(4)=<b>17</b></font></td>
+                    <td><font point-size="10">e(4)=<b>17</b></font></td>
                 </tr>
             </table>
         >,
@@ -81,7 +81,7 @@ digraph {
                     <td><b>5</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="11">d(5)=<b>17</b></font></td>
+                    <td><font point-size="10">d(5)=<b>17</b></font></td>
                 </tr>
             </table>
         >,
@@ -94,7 +94,7 @@ digraph {
                     <td><b>6</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="11">d(6)=<b>7</b></font></td>
+                    <td><font point-size="10">d(6)=<b>7</b></font></td>
                 </tr>
             </table>
         >,

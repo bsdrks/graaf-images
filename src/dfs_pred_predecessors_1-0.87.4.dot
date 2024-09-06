@@ -1,0 +1,109 @@
+digraph {
+    node [shape=circle, fontname="monospace", fixedsize=true, width="0.85"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    scale=1.0;
+    normalize=true;
+    pad=0.2;
+    splines=line
+
+    3 [color="#aaaaaa", fontcolor="#aaaaaa"];
+    0, 1, 2, 4, 5 [style=bold, color=red];
+
+    0 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >,
+        color=red,
+        style=bold
+    ];
+
+    1 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >,
+        color=red,
+        style=bold
+    ];
+
+    2 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>2</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    3 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>3</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    4 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>4</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    5 [
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>5</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+
+    0 -> 1 [
+        style=bold;
+        color=red;
+    ];
+
+    3 -> 0 [color="#aaaaaa"];
+
+    1 -> 2 [
+        style=bold;
+        color=red;
+    ];
+
+    2 -> 3 [style=invis];
+
+    1 -> 4 [
+        style=bold;
+        color=red;
+    ];
+
+    2 -> 5 [
+        style=bold;
+        color=red;
+    ];
+
+    5 -> 2 [style=dashed];
+
+    2 -> 1 [style=dashed];
+
+    4 -> 1 [style=dashed];
+
+    1 -> 0 [style=dashed];
+}
