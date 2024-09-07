@@ -35,9 +35,9 @@
 <!-- 0&#45;&gt;2 -->
 <g id="edge1" class="edge">
 <title>0&#45;&gt;2</title>
-<path fill="none" stroke="#aaaaaa" d="M86.75,-43.5C86.75,-68.15 86.75,-105.28 86.75,-129.95"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="88.86,-43.77 86.75,-37.77 84.66,-43.77 88.86,-43.77"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="84.66,-129.66 86.75,-135.66 88.86,-129.66 84.66,-129.66"/>
+<path fill="none" stroke="#bbbbbb" d="M86.75,-43.5C86.75,-68.15 86.75,-105.28 86.75,-129.95"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="88.86,-43.77 86.75,-37.77 84.66,-43.77 88.86,-43.77"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="84.66,-129.66 86.75,-135.66 88.86,-129.66 84.66,-129.66"/>
 </g>
 <!-- 3 -->
 <g id="node4" class="node">
@@ -48,15 +48,15 @@
 <!-- 0&#45;&gt;3 -->
 <g id="edge2" class="edge">
 <title>0&#45;&gt;3</title>
-<path fill="none" stroke="#aaaaaa" d="M68.63,-36.12C58.61,-46.14 46.2,-58.56 36.17,-68.59"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="69.99,-37.73 72.75,-32 67.02,-34.76 69.99,-37.73"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="34.7,-67.08 31.94,-72.81 37.67,-70.05 34.7,-67.08"/>
+<path fill="none" stroke="#bbbbbb" d="M68.63,-36.12C58.61,-46.14 46.2,-58.56 36.17,-68.59"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="69.99,-37.73 72.75,-32 67.02,-34.76 69.99,-37.73"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="34.7,-67.08 31.94,-72.81 37.67,-70.05 34.7,-67.08"/>
 </g>
 <!-- 1&#45;&gt;0 -->
 <g id="edge4" class="edge">
 <title>1&#45;&gt;0</title>
-<path fill="none" stroke="#aaaaaa" d="M146.98,-70.7C137.27,-58.64 121.42,-42.49 108.35,-31.17"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="110.05,-29.86 104.11,-27.62 107.36,-33.08 110.05,-29.86"/>
+<path fill="none" stroke="#bbbbbb" d="M146.98,-70.7C137.27,-58.64 121.42,-42.49 108.35,-31.17"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="110.05,-29.86 104.11,-27.62 107.36,-33.08 110.05,-29.86"/>
 </g>
 <!-- 1&#45;&gt;2 -->
 <g id="edge5" class="edge">
@@ -67,8 +67,8 @@
 <!-- 2&#45;&gt;1 -->
 <g id="edge6" class="edge">
 <title>2&#45;&gt;1</title>
-<path fill="none" stroke="#aaaaaa" d="M102.81,-146.98C114.87,-137.27 131.02,-121.42 142.34,-108.35"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="143.65,-110.05 145.89,-104.11 140.43,-107.36 143.65,-110.05"/>
+<path fill="none" stroke="#bbbbbb" d="M102.81,-146.98C114.87,-137.27 131.02,-121.42 142.34,-108.35"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="143.65,-110.05 145.89,-104.11 140.43,-107.36 143.65,-110.05"/>
 </g>
 <!-- 2&#45;&gt;3 -->
 <g id="edge7" class="edge">
@@ -79,15 +79,15 @@
 <!-- 3&#45;&gt;1 -->
 <g id="edge8" class="edge">
 <title>3&#45;&gt;1</title>
-<path fill="none" stroke="#aaaaaa" d="M43.5,-86.75C68.15,-86.75 105.28,-86.75 129.95,-86.75"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="43.77,-84.66 37.77,-86.75 43.77,-88.86 43.77,-84.66"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="129.66,-88.86 135.66,-86.75 129.66,-84.66 129.66,-88.86"/>
+<path fill="none" stroke="#bbbbbb" d="M43.5,-86.75C68.15,-86.75 105.28,-86.75 129.95,-86.75"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="43.77,-84.66 37.77,-86.75 43.77,-88.86 43.77,-84.66"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="129.66,-88.86 135.66,-86.75 129.66,-84.66 129.66,-88.86"/>
 </g>
 <!-- 3&#45;&gt;2 -->
 <g id="edge9" class="edge">
 <title>3&#45;&gt;2</title>
-<path fill="none" stroke="#aaaaaa" d="M26.53,-102.81C36.24,-114.87 52.09,-131.02 65.16,-142.34"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="63.46,-143.65 69.4,-145.89 66.15,-140.43 63.46,-143.65"/>
+<path fill="none" stroke="#bbbbbb" d="M26.53,-102.81C36.24,-114.87 52.09,-131.02 65.16,-142.34"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="63.46,-143.65 69.4,-145.89 66.15,-140.43 63.46,-143.65"/>
 </g>
 </g>
 </svg>

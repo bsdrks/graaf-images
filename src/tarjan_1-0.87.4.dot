@@ -1,15 +1,18 @@
 digraph {
     node [shape=circle, fontname="monospace", fixedsize=true, width="0.5"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    layout=circo;
-    scale=1.0;
-    normalize=true;
+    layout=neato;
+    scale=1.3;
+    start=3;
+    // normalize=true;
     pad=0.2;
-    splines=line;
+    // splines=line
+    ranksep=0.4;
+    nodesep=0.4;
 
-    3, 0, 1, 2 [style="bold"; color=red];
-    7, 6, 5 [style=bold; color=blue];
-    4 [color="#bbb", fontcolor="#bbb"];
+    0, 1, 4 [style=bold, color=lightsalmon];
+    5, 6 [style=bold, color=palegreen3];
+    2, 3, 7 [style=bold, color=plum3];
 
     0 [
         label=<
@@ -19,8 +22,6 @@ digraph {
                 </tr>
             </table>
         >,
-        color=red,
-        style=bold
     ];
 
     1 [
@@ -31,8 +32,16 @@ digraph {
                 </tr>
             </table>
         >,
-        color=red,
-        style=bold
+    ];
+
+    4 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>4</td>
+                </tr>
+            </table>
+        >,
     ];
 
     2 [
@@ -55,11 +64,11 @@ digraph {
         >,
     ];
 
-    4 [
+    7 [
         label=<
             <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>4</td>
+                    <td>7</td>
                 </tr>
             </table>
         >,
@@ -85,40 +94,17 @@ digraph {
         >,
     ];
 
-    7 [
-        label=<
-            <table border="0" cellpadding="1" cellspacing="0">
-                <tr>
-                    <td>7</td>
-                </tr>
-            </table>
-        >,
-    ];
 
-
-
-    3 -> 0 [
-        style=bold;
-        color=red;
-    ];
-
-    0 -> 1 [style=bold; color=red];
-
-    1 -> 2 [style=bold; color=red];
-
-    1 -> 4 [color="#bbb"];
-
-    2 -> 3 [color="#bbb"];
-
-    2 -> 5 [color="#bbb"];
-
-    2 -> 6 [color="#bbb"];
-
-    6 -> 5 [style=bold; color=blue];
-
-    6 -> 7 [color="#bbb"];
-
-    7 -> 6 [style=bold; color=blue];
-
-    1 -> 5 [style=invis];
+    0 -> 1 [color=lightsalmon; style=bold];
+    1 -> 2 [color="#bbb"; style=dashed];
+    1 -> 4 [color=lightsalmon; style=bold];
+    // 1 -> 5 [color="#bbb"; style=dashed];
+    2 -> 3 [color=plum3; dir=both; style=bold];
+    2 -> 6 [color="#bbb"; style=dashed];
+    3 -> 7 [color=plum3; dir=both; style=bold];
+    4 -> 0 [color=lightsalmon; style=bold];
+    4 -> 5 [color="#bbb"; style=dashed];
+    5 -> 6 [color=palegreen3; dir=both; style=bold];
+    7 -> 6 [color="#bbb"; style=dashed];
+    // 2 -> 5 [style=invis];
 }

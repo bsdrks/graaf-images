@@ -1,9 +1,12 @@
 digraph {
-    node [shape=circle, fontname="monospace"];
+    node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6];
-    layout=circo;
+    layout=neato;
+    normalize=true;
     pad=0.2;
 
-    0 -> 1 -> 2 -> 3;
-    3 -> 0 [style=invis];
+    0 -> 1;
+    1 -> 2;
+    2 -> 3;
+    0 -> 2 [style=invis];
 }

@@ -5,15 +5,15 @@ digraph {
     normalize=true;
     pad=0.2;
 
-    0 -> {3} [dir=both, label="0", color="#aaaaaa"];
-    1 -> {7} [dir=both, label="0   ", color="#aaaaaa"];
-    2 -> {6} [dir=both, label="0", color="#aaaaaa"];
-    3 -> {5} [dir=both, label=" 0", color="#aaaaaa"];
-    3 -> {4} [dir=both, label="  0 ", color="#aaaaaa"];
-    3 -> {7} [dir=both, label="0   ", color="#aaaaaa"];
+    0 -> {3} [dir=both, label="0", color="#bbb"];
+    1 -> {7} [dir=both, label="0   ", color="#bbb"];
+    2 -> {6} [dir=both, label="0", color="#bbb"];
+    3 -> {5} [dir=both, label=" 0", color="#bbb"];
+    3 -> {4} [dir=both, label="  0 ", color="#bbb"];
+    3 -> {7} [dir=both, label="0   ", color="#bbb"];
     4 -> {6} [dir=both, label="1 "];
     4 -> {8} [dir=both, label="                       1  "];
     5 -> {6} [dir=both, label="1  "];
-    5 -> {8} [dir=both, label="0", color="#aaaaaa"];
+    5 -> {8} [dir=both, label="0", color="#bbb"];
     6 -> {9} [dir=both, label="1    "];
 }

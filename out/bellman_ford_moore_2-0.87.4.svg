@@ -11,7 +11,7 @@
 <!-- 0 -->
 <g id="node1" class="node">
 <title>0</title>
-<ellipse fill="none" stroke="red" stroke-width="2" cx="64" cy="-150.5" rx="18" ry="18"/>
+<ellipse fill="none" stroke="black" cx="64" cy="-150.5" rx="18" ry="18"/>
 <text text-anchor="middle" x="64" y="-145.82" font-family="monospace" font-size="14.00">0</text>
 </g>
 <!-- 1 -->
@@ -23,8 +23,8 @@
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>0&#45;&gt;1</title>
-<path fill="none" stroke="#bbbbbb" d="M46.05,-146.85C32.85,-143.86 15.78,-137.58 7.25,-124.5 3.81,-119.23 4.07,-112.87 5.87,-106.82"/>
-<polygon fill="#bbbbbb" stroke="#bbbbbb" points="7.77,-107.7 8,-101.35 3.86,-106.17 7.77,-107.7"/>
+<path fill="none" stroke="black" d="M46.05,-146.85C32.85,-143.86 15.78,-137.58 7.25,-124.5 3.81,-119.23 4.07,-112.87 5.87,-106.82"/>
+<polygon fill="black" stroke="black" points="7.77,-107.7 8,-101.35 3.86,-106.17 7.77,-107.7"/>
 <text text-anchor="middle" x="15.88" y="-114.45" font-family="monospace" font-size="9.00"> &#45;2</text>
 </g>
 <!-- 2 -->
@@ -50,15 +50,15 @@
 <!-- 1&#45;&gt;2 -->
 <g id="edge2" class="edge">
 <title>1&#45;&gt;2</title>
-<path fill="none" stroke="#bbbbbb" d="M8.56,-68.56C4.84,-60.78 2.46,-51.34 7.25,-44 14.31,-33.17 27.24,-27 38.97,-23.5"/>
-<polygon fill="#bbbbbb" stroke="#bbbbbb" points="39.32,-25.58 44.59,-22.03 38.25,-21.52 39.32,-25.58"/>
+<path fill="none" stroke="black" d="M8.56,-68.56C4.84,-60.78 2.46,-51.34 7.25,-44 14.31,-33.17 27.24,-27 38.97,-23.5"/>
+<polygon fill="black" stroke="black" points="39.32,-25.58 44.59,-22.03 38.25,-21.52 39.32,-25.58"/>
 <text text-anchor="middle" x="15.88" y="-48.2" font-family="monospace" font-size="9.00"> &#45;1</text>
 </g>
 <!-- 2&#45;&gt;0 -->
 <g id="edge3" class="edge">
 <title>2&#45;&gt;0</title>
-<path fill="none" stroke="#bbbbbb" d="M79.81,-27.4C92.87,-35.38 110.29,-48.75 117,-66.25 122.73,-81.19 122.73,-87.31 117,-102.25 111.29,-117.15 97.8,-129.06 85.87,-137.2"/>
-<polygon fill="#bbbbbb" stroke="#bbbbbb" points="84.99,-135.26 81.08,-140.28 87.26,-138.79 84.99,-135.26"/>
+<path fill="none" stroke="black" d="M79.81,-27.4C92.87,-35.38 110.29,-48.75 117,-66.25 122.73,-81.19 122.73,-87.31 117,-102.25 111.29,-117.15 97.8,-129.06 85.87,-137.2"/>
+<polygon fill="black" stroke="black" points="84.99,-135.26 81.08,-140.28 87.26,-138.79 84.99,-135.26"/>
 <text text-anchor="middle" x="131.5" y="-81.33" font-family="monospace" font-size="9.00"> &#160;&#45;1</text>
 </g>
 <!-- 2&#45;&gt;1 -->

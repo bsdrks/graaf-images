@@ -11,8 +11,8 @@
 <!-- 3 -->
 <g id="node1" class="node">
 <title>3</title>
-<ellipse fill="none" stroke="#aaaaaa" cx="97" cy="-210.44" rx="27" ry="27"/>
-<text text-anchor="start" x="92.88" y="-205.77" font-family="monospace" font-size="14.00" fill="#aaaaaa">3</text>
+<ellipse fill="none" stroke="#bbbbbb" cx="97" cy="-210.44" rx="27" ry="27"/>
+<text text-anchor="start" x="92.88" y="-205.77" font-family="monospace" font-size="14.00" fill="#bbbbbb">3</text>
 </g>
 <!-- 0 -->
 <g id="node2" class="node">
@@ -24,8 +24,8 @@
 <!-- 3&#45;&gt;0 -->
 <g id="edge2" class="edge">
 <title>3&#45;&gt;0</title>
-<path fill="none" stroke="#aaaaaa" d="M124.46,-210.44C139.93,-210.44 159.39,-210.44 175.89,-210.44"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="175.72,-212.54 181.72,-210.44 175.72,-208.34 175.72,-212.54"/>
+<path fill="none" stroke="#bbbbbb" d="M124.46,-210.44C139.93,-210.44 159.39,-210.44 175.89,-210.44"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="175.72,-212.54 181.72,-210.44 175.72,-208.34 175.72,-212.54"/>
 </g>
 <!-- 1 -->
 <g id="node3" class="node">

@@ -78,8 +78,8 @@
 <!-- 2&#45;&gt;3 -->
 <g id="edge5" class="edge">
 <title>2&#45;&gt;3</title>
-<path fill="none" stroke="#aaaaaa" d="M292.91,-50.5C270.98,-88.49 227.75,-163.37 203.57,-205.24"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="201.8,-204.11 200.62,-210.36 205.44,-206.21 201.8,-204.11"/>
+<path fill="none" stroke="#bbbbbb" d="M292.91,-50.5C270.98,-88.49 227.75,-163.37 203.57,-205.24"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="201.8,-204.11 200.62,-210.36 205.44,-206.21 201.8,-204.11"/>
 </g>
 <!-- 6 -->
 <g id="node7" class="node">
@@ -91,14 +91,14 @@
 <!-- 2&#45;&gt;6 -->
 <g id="edge7" class="edge">
 <title>2&#45;&gt;6</title>
-<path fill="none" stroke="#aaaaaa" d="M282.89,-40.62C250.32,-59.42 191.6,-93.32 155.97,-113.9"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="155.06,-112 150.91,-116.82 157.16,-115.64 155.06,-112"/>
+<path fill="none" stroke="#bbbbbb" d="M282.89,-40.62C250.32,-59.42 191.6,-93.32 155.97,-113.9"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="155.06,-112 150.91,-116.82 157.16,-115.64 155.06,-112"/>
 </g>
 <!-- 2&#45;&gt;5 -->
 <g id="edge6" class="edge">
 <title>2&#45;&gt;5</title>
-<path fill="none" stroke="#aaaaaa" d="M279.18,-27C261.8,-27 239.13,-27 220.53,-27"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="220.87,-24.9 214.87,-27 220.87,-29.1 220.87,-24.9"/>
+<path fill="none" stroke="#bbbbbb" d="M279.18,-27C261.8,-27 239.13,-27 220.53,-27"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="220.87,-24.9 214.87,-27 220.87,-29.1 220.87,-24.9"/>
 </g>
 <!-- 7 -->
 <g id="node6" class="node">
@@ -116,8 +116,8 @@
 <!-- 6&#45;&gt;7 -->
 <g id="edge9" class="edge">
 <title>6&#45;&gt;7</title>
-<path fill="none" stroke="#aaaaaa" d="M99.21,-125.13C87.43,-124.37 73.47,-124.25 60.97,-124.76"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="61.21,-122.64 55.32,-125.05 61.42,-126.83 61.21,-122.64"/>
+<path fill="none" stroke="#bbbbbb" d="M99.21,-125.13C87.43,-124.37 73.47,-124.25 60.97,-124.76"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="61.21,-122.64 55.32,-125.05 61.42,-126.83 61.21,-122.64"/>
 </g>
 <!-- 6&#45;&gt;5 -->
 <g id="edge8" class="edge">

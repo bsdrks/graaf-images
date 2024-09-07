@@ -1,7 +1,8 @@
 digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.6];
-    layout=circo;
+    layout=neato;
+    normalize=true;
     pad=0.2;
 
     0 -> 1 -> 2 -> 0 [dir="both"];

@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.6"];
+    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.5"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=circo;
     scale=1.0;
@@ -107,15 +107,15 @@ digraph {
 
     1 -> 4 [style=bold; color=red];
 
-    2 -> 3 [color="#aaaaaa"];
+    2 -> 3 [color="#bbb"];
 
-    2 -> 5 [color="#aaaaaa"];
+    2 -> 5 [color="#bbb"];
 
-    2 -> 6 [color="#aaaaaa"];
+    2 -> 6 [color="#bbb"];
 
     6 -> 5 [style=bold; color=blue];
 
-    6 -> 7 [color="#aaaaaa"];
+    6 -> 7 [color="#bbb"];
 
     7 -> 6 [style=bold; color=blue];
 

@@ -25,7 +25,7 @@
 <!-- 7 -->
 <g id="node12" class="node">
 <title>7</title>
-<polygon fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" points="94.2,-248 51,-248 51,-204.8 94.2,-204.8 94.2,-248"/>
+<polygon fill="none" stroke="#bbbbbb" stroke-dasharray="5,2" points="94.2,-248 51,-248 51,-204.8 94.2,-204.8 94.2,-248"/>
 <text text-anchor="middle" x="72.6" y="-221.72" font-family="monospace" font-size="14.00" fill="white">0</text>
 </g>
 <!-- 1&#45;&gt;7 -->
@@ -119,7 +119,7 @@
 <!-- 14 -->
 <g id="node18" class="node">
 <title>14</title>
-<polygon fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" points="145.2,-196.8 102,-196.8 102,-153.6 145.2,-153.6 145.2,-196.8"/>
+<polygon fill="none" stroke="#bbbbbb" stroke-dasharray="5,2" points="145.2,-196.8 102,-196.8 102,-153.6 145.2,-153.6 145.2,-196.8"/>
 <text text-anchor="middle" x="123.6" y="-170.52" font-family="monospace" font-size="14.00" fill="white">0</text>
 </g>
 <!-- 8&#45;&gt;14 -->
@@ -161,7 +161,7 @@
 <!-- 21 -->
 <g id="node24" class="node">
 <title>21</title>
-<polygon fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" points="196.2,-145.6 153,-145.6 153,-102.4 196.2,-102.4 196.2,-145.6"/>
+<polygon fill="none" stroke="#bbbbbb" stroke-dasharray="5,2" points="196.2,-145.6 153,-145.6 153,-102.4 196.2,-102.4 196.2,-145.6"/>
 <text text-anchor="middle" x="174.6" y="-119.33" font-family="monospace" font-size="14.00" fill="white">0</text>
 </g>
 <!-- 15&#45;&gt;21 -->
@@ -203,7 +203,7 @@
 <!-- 28 -->
 <g id="node30" class="node">
 <title>28</title>
-<polygon fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" points="247.2,-94.4 204,-94.4 204,-51.2 247.2,-51.2 247.2,-94.4"/>
+<polygon fill="none" stroke="#bbbbbb" stroke-dasharray="5,2" points="247.2,-94.4 204,-94.4 204,-51.2 247.2,-51.2 247.2,-94.4"/>
 <text text-anchor="middle" x="225.6" y="-68.12" font-family="monospace" font-size="14.00" fill="white">0</text>
 </g>
 <!-- 22&#45;&gt;28 -->
@@ -245,7 +245,7 @@
 <!-- 35 -->
 <g id="node36" class="node">
 <title>35</title>
-<polygon fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" points="298.2,-43.2 255,-43.2 255,0 298.2,0 298.2,-43.2"/>
+<polygon fill="none" stroke="#bbbbbb" stroke-dasharray="5,2" points="298.2,-43.2 255,-43.2 255,0 298.2,0 298.2,-43.2"/>
 <text text-anchor="middle" x="276.6" y="-16.92" font-family="monospace" font-size="14.00" fill="white">0</text>
 </g>
 <!-- 29&#45;&gt;35 -->

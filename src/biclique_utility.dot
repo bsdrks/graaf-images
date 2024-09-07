@@ -1,7 +1,9 @@
 digraph {
-    node [shape=circle, fontname="monospace"];
+    node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6];
     layout=circo;
+    normalize=true;
+    scale=0.8;  
     pad=0.2;
 
     subgraph cluster_0 {

@@ -11,8 +11,8 @@
 <!-- 3 -->
 <g id="node1" class="node">
 <title>3</title>
-<ellipse fill="none" stroke="#aaaaaa" cx="81.64" cy="-178.87" rx="18" ry="18"/>
-<text text-anchor="middle" x="81.64" y="-174.2" font-family="monospace" font-size="14.00" fill="#aaaaaa">3</text>
+<ellipse fill="none" stroke="#bbbbbb" cx="81.64" cy="-178.87" rx="18" ry="18"/>
+<text text-anchor="middle" x="81.64" y="-174.2" font-family="monospace" font-size="14.00" fill="#bbbbbb">3</text>
 </g>
 <!-- 0 -->
 <g id="node2" class="node">
@@ -23,8 +23,8 @@
 <!-- 3&#45;&gt;0 -->
 <g id="edge2" class="edge">
 <title>3&#45;&gt;0</title>
-<path fill="none" stroke="#aaaaaa" d="M99.93,-178.87C115,-178.87 136.56,-178.87 153.33,-178.87"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="153.15,-180.97 159.15,-178.87 153.15,-176.77 153.15,-180.97"/>
+<path fill="none" stroke="#bbbbbb" d="M99.93,-178.87C115,-178.87 136.56,-178.87 153.33,-178.87"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="153.15,-180.97 159.15,-178.87 153.15,-176.77 153.15,-180.97"/>
 </g>
 <!-- 1 -->
 <g id="node3" class="node">
@@ -53,14 +53,14 @@
 <!-- 4 -->
 <g id="node5" class="node">
 <title>4</title>
-<ellipse fill="none" stroke="#aaaaaa" cx="242.51" cy="-18" rx="18" ry="18"/>
-<text text-anchor="middle" x="242.51" y="-13.32" font-family="monospace" font-size="14.00" fill="#aaaaaa">4</text>
+<ellipse fill="none" stroke="#bbbbbb" cx="242.51" cy="-18" rx="18" ry="18"/>
+<text text-anchor="middle" x="242.51" y="-13.32" font-family="monospace" font-size="14.00" fill="#bbbbbb">4</text>
 </g>
 <!-- 1&#45;&gt;4 -->
 <g id="edge5" class="edge">
 <title>1&#45;&gt;4</title>
-<path fill="none" stroke="#aaaaaa" d="M191.75,-68.76C201.15,-59.36 214.03,-46.49 224.45,-36.06"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="225.83,-37.66 228.58,-31.93 222.86,-34.69 225.83,-37.66"/>
+<path fill="none" stroke="#bbbbbb" d="M191.75,-68.76C201.15,-59.36 214.03,-46.49 224.45,-36.06"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="225.83,-37.66 228.58,-31.93 222.86,-34.69 225.83,-37.66"/>
 </g>
 <!-- 2&#45;&gt;3 -->
 <!-- 5 -->

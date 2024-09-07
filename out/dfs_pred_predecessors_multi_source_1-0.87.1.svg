@@ -77,8 +77,8 @@
 <!-- 2&#45;&gt;3 -->
 <g id="edge5" class="edge">
 <title>2&#45;&gt;3</title>
-<path fill="none" stroke="#aaaaaa" d="M103.48,-203.41C97.07,-233.62 84.17,-294.44 76.86,-328.88"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="74.81,-328.43 75.62,-334.73 78.92,-329.3 74.81,-328.43"/>
+<path fill="none" stroke="#bbbbbb" d="M103.48,-203.41C97.07,-233.62 84.17,-294.44 76.86,-328.88"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="74.81,-328.43 75.62,-334.73 78.92,-329.3 74.81,-328.43"/>
 </g>
 <!-- 2&#45;&gt;1 -->
 <g id="edge12" class="edge">
@@ -95,8 +95,8 @@
 <!-- 2&#45;&gt;6 -->
 <g id="edge7" class="edge">
 <title>2&#45;&gt;6</title>
-<path fill="none" stroke="#aaaaaa" d="M98.28,-169.7C91.72,-158.34 82.77,-142.83 75.47,-130.2"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="77.41,-129.35 72.59,-125.21 73.77,-131.45 77.41,-129.35"/>
+<path fill="none" stroke="#bbbbbb" d="M98.28,-169.7C91.72,-158.34 82.77,-142.83 75.47,-130.2"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="77.41,-129.35 72.59,-125.21 73.77,-131.45 77.41,-129.35"/>
 </g>
 <!-- 5 -->
 <g id="node8" class="node">
@@ -107,8 +107,8 @@
 <!-- 2&#45;&gt;5 -->
 <g id="edge6" class="edge">
 <title>2&#45;&gt;5</title>
-<path fill="none" stroke="#aaaaaa" d="M89.24,-185.35C76.13,-185.35 58.22,-185.35 43.63,-185.35"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="43.87,-183.25 37.87,-185.35 43.87,-187.45 43.87,-183.25"/>
+<path fill="none" stroke="#bbbbbb" d="M89.24,-185.35C76.13,-185.35 58.22,-185.35 43.63,-185.35"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="43.87,-183.25 37.87,-185.35 43.87,-187.45 43.87,-183.25"/>
 </g>
 <!-- 4&#45;&gt;1 -->
 <g id="edge11" class="edge">
@@ -131,8 +131,8 @@
 <!-- 6&#45;&gt;7 -->
 <g id="edge9" class="edge">
 <title>6&#45;&gt;7</title>
-<path fill="none" stroke="#aaaaaa" d="M73.09,-92.73C76.65,-78.29 77.11,-56.46 74.47,-40.12"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="76.58,-39.99 73.34,-34.53 72.47,-40.82 76.58,-39.99"/>
+<path fill="none" stroke="#bbbbbb" d="M73.09,-92.73C76.65,-78.29 77.11,-56.46 74.47,-40.12"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="76.58,-39.99 73.34,-34.53 72.47,-40.82 76.58,-39.99"/>
 </g>
 <!-- 6&#45;&gt;7 -->
 <g id="edge16" class="edge">

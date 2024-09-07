@@ -133,8 +133,8 @@ digraph {
     ];
 
     1 -> 6 [
-        color="#aaaaaa",
-        fontcolor="#aaaaaa",
+        color="#bbb",
+        fontcolor="#bbb",
         label=<
             <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
@@ -157,8 +157,8 @@ digraph {
     ];
 
     3 -> 0 [
-        color="#aaaaaa",
-        fontcolor="#aaaaaa",
+        color="#bbb",
+        fontcolor="#bbb",
         label=<
             <table border="0" cellpadding="2" cellspacing="0">
                 <tr>
@@ -172,8 +172,8 @@ digraph {
     // 6 -> 2 [style=invis];
 
     4 -> 5 [
-        color="#aaaaaa",
-        fontcolor="#aaaaaa",
+        color="#bbb",
+        fontcolor="#bbb",
         label=<
             <table border="0" cellpadding="4" cellspacing="0">
                 <tr>

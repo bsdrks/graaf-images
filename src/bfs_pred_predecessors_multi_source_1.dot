@@ -16,11 +16,11 @@ digraph {
     0 -> 1 [style=bold; color=red];
     1 -> 2 [style=bold; color=red];
     1 -> 4 [style=bold; color=red];
-    2 -> 3 [color="#aaaaaa"];
-    2 -> 5 [color="#aaaaaa"];
-    2 -> 6 [color="#aaaaaa"];
+    2 -> 3 [color="#bbb"];
+    2 -> 5 [color="#bbb"];
+    2 -> 6 [color="#bbb"];
     6 -> 5 [style=bold; color=blue];
-    6 -> 7 [color="#aaaaaa"];
+    6 -> 7 [color="#bbb"];
     7 -> 6 [style=bold; color=blue];
     4 -> 1 [style=dashed];
     2 -> 1 [style=dashed];

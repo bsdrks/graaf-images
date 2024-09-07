@@ -1,10 +1,10 @@
 digraph {
-    node [shape=circle, fontname="monospace"];
+    node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=circo;
     pad=0.2;
 
-    0 -> {1} [dir=both, label=" 1"];
+    0 -> {1} [dir=both, label=" 1 "];
     0 -> {2} [dir=both, label="1 "];
     1 -> {2} [dir=both, label="   1"];
 }

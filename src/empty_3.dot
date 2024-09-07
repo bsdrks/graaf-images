@@ -4,5 +4,5 @@ digraph {
     layout=circo;
     pad=0.2;
 
-    0 -> 1 -> 2 -> 0 [color="white"];
+    0 -> 1 -> 2 -> 0 [style=invis];
 }

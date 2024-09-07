@@ -11,8 +11,8 @@
 <!-- 3 -->
 <g id="node1" class="node">
 <title>3</title>
-<ellipse fill="none" stroke="#aaaaaa" cx="27" cy="-65.53" rx="27" ry="27"/>
-<text text-anchor="start" x="22.88" y="-60.85" font-family="monospace" font-size="14.00" fill="#aaaaaa">3</text>
+<ellipse fill="none" stroke="#bbbbbb" cx="27" cy="-65.53" rx="27" ry="27"/>
+<text text-anchor="start" x="22.88" y="-60.85" font-family="monospace" font-size="14.00" fill="#bbbbbb">3</text>
 </g>
 <!-- 0 -->
 <g id="node2" class="node">
@@ -24,9 +24,9 @@
 <!-- 3&#45;&gt;0 -->
 <g id="edge5" class="edge">
 <title>3&#45;&gt;0</title>
-<path fill="none" stroke="#aaaaaa" d="M52.81,-56.1C67.1,-50.89 84.98,-44.36 100.19,-38.8"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="100.63,-40.88 105.55,-36.85 99.19,-36.93 100.63,-40.88"/>
-<text text-anchor="start" x="67.25" y="-54.15" font-family="monospace" font-size="9.00" fill="#aaaaaa">2</text>
+<path fill="none" stroke="#bbbbbb" d="M52.81,-56.1C67.1,-50.89 84.98,-44.36 100.19,-38.8"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="100.63,-40.88 105.55,-36.85 99.19,-36.93 100.63,-40.88"/>
+<text text-anchor="start" x="67.25" y="-54.15" font-family="monospace" font-size="9.00" fill="#bbbbbb">2</text>
 </g>
 <!-- 1 -->
 <g id="node3" class="node">
@@ -66,9 +66,9 @@
 <!-- 1&#45;&gt;6 -->
 <g id="edge3" class="edge">
 <title>1&#45;&gt;6</title>
-<path fill="none" stroke="#aaaaaa" d="M147.08,-138.53C131.68,-144.13 111.97,-151.3 95.51,-157.29"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="95.03,-155.23 90.11,-159.25 96.46,-159.17 95.03,-155.23"/>
-<text text-anchor="start" x="112.05" y="-154.61" font-family="monospace" font-size="9.00" fill="#aaaaaa">6</text>
+<path fill="none" stroke="#bbbbbb" d="M147.08,-138.53C131.68,-144.13 111.97,-151.3 95.51,-157.29"/>
+<polygon fill="#bbbbbb" stroke="#bbbbbb" points="95.03,-155.23 90.11,-159.25 96.46,-159.17 95.03,-155.23"/>
+<text text-anchor="start" x="112.05" y="-154.61" font-family="monospace" font-size="9.00" fill="#bbbbbb">6</text>
 </g>
 <!-- 4 -->
 <g id="node5" class="node">

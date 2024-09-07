@@ -9,18 +9,18 @@ digraph {
 
     3 [style="bold"; color=red];
     0, 1, 2 [style=bold, color=red];
-    4 [color="#aaaaaa", fontcolor="#aaaaaa"];
+    4 [color="#bbb", fontcolor="#bbb"];
     7 [style=bold; color=blue];
     6, 5 [style=bold, color=blue];
 
     3 -> 0 [style=bold; color=red];
     0 -> 1 [style=bold; color=red];
     1 -> 2 [style=bold; color=red];
-    1 -> 4 [color="#aaaaaa"];
-    2 -> 3 [color="#aaaaaa"];
-    2 -> 5 [color="#aaaaaa"];
-    2 -> 6 [color="#aaaaaa"];
+    1 -> 4 [color="#bbb"];
+    2 -> 3 [color="#bbb"];
+    2 -> 5 [color="#bbb"];
+    2 -> 6 [color="#bbb"];
     6 -> 5 [style=bold; color=blue];
-    6 -> 7 [color="#aaaaaa"];
+    6 -> 7 [color="#bbb"];
     7 -> 6 [style=bold; color=blue];
 }
