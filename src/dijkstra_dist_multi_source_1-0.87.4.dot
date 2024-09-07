@@ -1,14 +1,15 @@
 digraph {
-    node [shape=circle, fontname="monospace", fixedsize=true, width="0.75"];
+    node [shape=circle, fontname="monospace", style=bold; fixedsize=true, width="0.85"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=neato;
     scale=1.4;
-    // normalize=true;
+    normalize=true;
     pad=0.2;
+    // newrank=true;
     // splines=line
 
-    3 [color="#aaaaaa", fontcolor="#aaaaaa"];
-    0, 1, 2, 4, 5, 6 [style=bold, color=red];
+    0, 1, 2, 4 [color=red];
+    3, 5, 6 [color=blue];
 
     0 [
         label=<
@@ -59,6 +60,9 @@ digraph {
                 <tr>
                     <td>3</td>
                 </tr>
+                <tr>
+                    <td><font point-size="9">d(3)=0</font></td>
+                </tr>
             </table>
         >;
     ];
@@ -83,7 +87,7 @@ digraph {
                     <td>5</td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(5)=4</font></td>
+                    <td><font point-size="9">d(5)=1</font></td>
                 </tr>
             </table>
         >;
@@ -96,95 +100,109 @@ digraph {
                     <td>6</td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(6)=5</font></td>
+                    <td><font point-size="9">d(6)=4</font></td>
                 </tr>
             </table>
         >;
     ];
 
-    0 -> 1 [
-        color=red;
-        style=bold;
+
+    3 -> 0 [
+        color="#aaaaaa",
+        fontcolor="#aaaaaa",
         label=<
-            <table border="0" cellpadding="2" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>2</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    0 -> 1 [
+        color=red,
+        style=bold,
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>1</td>
                 </tr>
             </table>
-        >
+        >,
     ];
 
     1 -> 2 [
-        style=bold; 
-        color=red; 
+        style=bold, 
+        color=red, 
         label=<
-            <table border="0" cellpadding="2" cellspacing="0">
+            <table border="0" cellpadding="8" cellspacing="0">
                 <tr>
                     <td>1</td>
                 </tr>
             </table>
-        >
-    ];
-
-    1 -> 6 [
-        color="#aaaaaa";
-        fontcolor="#aaaaaa";
-        label=<
-            <table border="0" cellpadding="4" cellspacing="0">
-                <tr>
-                    <td>6</td>
-                </tr>
-            </table>
-        >
+        >,
     ];
 
     2 -> 4 [
-        style=bold; 
-        color=red; 
+        style=bold, 
+        color=red, 
         label=<
-            <table border="0" cellpadding="2" cellspacing="2">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td bgcolor="#ffffffcc">1</td>
+                    <td>1</td>
                 </tr>
             </table>
-        >
+        >,
     ];
 
-    3 -> 0 [
-        color="#aaaaaa";
-        fontcolor="#aaaaaa";
+    1 -> 6 [
+        color="#aaaaaa",
+        fontcolor="#aaaaaa",
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="3" cellspacing="0">
                 <tr>
-                    <td>2</td>
+                    <td>5  </td>
                 </tr>
             </table>
-        >
+        >,
     ];
+
+    2 -> 6 [style=invis];
+    6 -> 2 [style=invis];
 
     4 -> 5 [
-        style=bold; 
-        color=red; 
+        color="#aaaaaa",
+        fontcolor="#aaaaaa",
         label=<
-            <table border="0" cellpadding="2" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>2</td>
+                    <td>     1</td>
                 </tr>
             </table>
-        >
+        >,
+    ];
+
+    3 -> 5 [
+        style=bold, 
+        color=blue, 
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>1 </td>
+                </tr>
+            </table>
+        >,
     ];
 
     5 -> 6 [
-        style=bold; 
-        color=red; 
+        style=bold, 
+        color=blue, 
         label=<
-            <table border="0" cellpadding="2" cellspacing="2">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td bgcolor="#ffffffcc">1</td>
+                    <td>3</td>
                 </tr>
             </table>
-        >
+        >,
     ];
-
-    6 -> 3 [style=invis];
 }

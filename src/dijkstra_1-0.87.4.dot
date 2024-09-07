@@ -1,9 +1,9 @@
 digraph {
-    node [shape=circle, fontname="monospace", fixedsize=true, width="0.85"];
+    node [shape=circle, fontname="monospace", fixedsize=true, width="0.75"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=neato;
     scale=1.4;
-    normalize=true;
+    // normalize=true;
     pad=0.2;
     // splines=line
 
@@ -106,7 +106,7 @@ digraph {
         color=red;
         style=bold;
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="0">
                 <tr>
                     <td>1</td>
                 </tr>
@@ -118,21 +118,9 @@ digraph {
         style=bold; 
         color=red; 
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="0">
                 <tr>
                     <td>1</td>
-                </tr>
-            </table>
-        >
-    ];
-
-    3 -> 0 [
-        color="#aaaaaa";
-        fontcolor="#aaaaaa";
-        label=<
-            <table border="0" cellpadding="4" cellspacing="0">
-                <tr>
-                    <td>2</td>
                 </tr>
             </table>
         >
@@ -154,9 +142,21 @@ digraph {
         style=bold; 
         color=red; 
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="2">
                 <tr>
                     <td bgcolor="#ffffffcc">1</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    3 -> 0 [
+        color="#aaaaaa";
+        fontcolor="#aaaaaa";
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>2</td>
                 </tr>
             </table>
         >
@@ -178,7 +178,7 @@ digraph {
         style=bold; 
         color=red; 
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="2">
                 <tr>
                     <td bgcolor="#ffffffcc">1</td>
                 </tr>
