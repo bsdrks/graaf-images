@@ -1,8 +1,9 @@
 digraph {
-    node [shape=circle, fontname="monospace", style=bold; fixedsize=true, width="0.85"];
+    node [shape=circle, fontname="monospace", style=bold; fixedsize=true, width="0.75"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    layout=neato;
-    scale=1.4;
+    // layout=circo;
+    // scale=1.4;
+    ranksep=0.2;
     normalize=true;
     pad=0.2;
     // newrank=true;
@@ -107,23 +108,11 @@ digraph {
     ];
 
 
-    3 -> 0 [
-        color="#aaaaaa",
-        fontcolor="#aaaaaa",
-        label=<
-            <table border="0" cellpadding="1" cellspacing="0">
-                <tr>
-                    <td>2</td>
-                </tr>
-            </table>
-        >,
-    ];
-
     0 -> 1 [
         color=red,
         style=bold,
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
                     <td>1</td>
                 </tr>
@@ -135,19 +124,7 @@ digraph {
         style=bold, 
         color=red, 
         label=<
-            <table border="0" cellpadding="8" cellspacing="0">
-                <tr>
-                    <td>1</td>
-                </tr>
-            </table>
-        >,
-    ];
-
-    2 -> 4 [
-        style=bold, 
-        color=red, 
-        label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
                     <td>1</td>
                 </tr>
@@ -159,24 +136,48 @@ digraph {
         color="#aaaaaa",
         fontcolor="#aaaaaa",
         label=<
-            <table border="0" cellpadding="3" cellspacing="0">
+            <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
-                    <td>5  </td>
+                    <td>5</td>
                 </tr>
             </table>
         >,
     ];
 
-    2 -> 6 [style=invis];
-    6 -> 2 [style=invis];
+    2 -> 4 [
+        style=bold, 
+        color=red, 
+        label=<
+            <table border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    3 -> 0 [
+        color="#aaaaaa",
+        fontcolor="#aaaaaa",
+        label=<
+            <table border="0" cellpadding="2" cellspacing="0">
+                <tr>
+                    <td>2</td>
+                </tr>
+            </table>
+        >,
+    ];
+
+    // 2 -> 6 [style=invis];
+    // 6 -> 2 [style=invis];
 
     4 -> 5 [
         color="#aaaaaa",
         fontcolor="#aaaaaa",
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
-                    <td>     1</td>
+                    <td>1</td>
                 </tr>
             </table>
         >,
@@ -186,7 +187,7 @@ digraph {
         style=bold, 
         color=blue, 
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="4" cellspacing="0">
                 <tr>
                     <td>1 </td>
                 </tr>
@@ -198,7 +199,7 @@ digraph {
         style=bold, 
         color=blue, 
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="0">
                 <tr>
                     <td>3</td>
                 </tr>
