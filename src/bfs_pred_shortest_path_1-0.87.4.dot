@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname="monospace", fixedsize=true, width="0.85"];
+    node [shape=circle, fontname="monospace", fixedsize=true, width="0.6"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=circo;
     scale=1.0;
@@ -12,7 +12,7 @@ digraph {
 
     0 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>0</td>
                 </tr>
@@ -24,7 +24,7 @@ digraph {
 
     1 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>1</td>
                 </tr>
@@ -36,7 +36,7 @@ digraph {
 
     2 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>2</td>
                 </tr>
@@ -46,7 +46,7 @@ digraph {
 
     3 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>3</td>
                 </tr>
@@ -56,7 +56,7 @@ digraph {
 
     4 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>4</td>
                 </tr>
@@ -66,7 +66,7 @@ digraph {
 
     5 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>5</td>
                 </tr>

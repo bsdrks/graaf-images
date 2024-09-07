@@ -11,12 +11,12 @@ digraph {
 
     0 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>0</b></td>
+                    <td>0</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">e(0)=<b>5</b></font></td>
+                    <td><font point-size="9">e(0)=5</font></td>
                 </tr>
             </table>
         >,
@@ -24,12 +24,12 @@ digraph {
 
     1 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>1</b></td>
+                    <td>1</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">e(1)=<b>5</b></font></td>
+                    <td><font point-size="9">e(1)=5</font></td>
                 </tr>
             </table>
         >,
@@ -37,12 +37,12 @@ digraph {
 
     2 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>2</b></td>
+                    <td>2</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">e(2)=<b>14</b></font></td>
+                    <td><font point-size="9">e(2)=14</font></td>
                 </tr>
             </table>
         >,
@@ -50,12 +50,12 @@ digraph {
 
     3 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>3</b></td>
+                    <td>3</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">e(3)=<b>11</b></font></td>
+                    <td><font point-size="9">e(3)=11</font></td>
                 </tr>
             </table>
         >,
@@ -63,12 +63,12 @@ digraph {
 
     4 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>4</b></td>
+                    <td>4</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">e(4)=<b>17</b></font></td>
+                    <td><font point-size="9">e(4)=17</font></td>
                 </tr>
             </table>
         >,
@@ -76,12 +76,12 @@ digraph {
 
     5 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>5</b></td>
+                    <td>5</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">e(5)=<b>11</b></font></td>
+                    <td><font point-size="9">e(5)=11</font></td>
                 </tr>
             </table>
         >,
@@ -89,12 +89,12 @@ digraph {
 
     6 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>6</b></td>
+                    <td>6</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">e(6)=<b>10</b></font></td>
+                    <td><font point-size="9">e(6)=10</font></td>
                 </tr>
             </table>
         >,

@@ -48,7 +48,7 @@ digraph {
         style=bold; 
         color=red; 
         headlabel=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>    d=3 </td>
                 </tr>
@@ -66,7 +66,7 @@ digraph {
         style=bold; 
         color=blue; 
         headlabel=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>    d=2</td>
                 </tr>
@@ -80,14 +80,14 @@ digraph {
         style=bold; 
         color=blue; 
         taillabel=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td> d=0  </td>
                 </tr>
             </table>
         >,
         headlabel=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>    d=1</td>
                 </tr>

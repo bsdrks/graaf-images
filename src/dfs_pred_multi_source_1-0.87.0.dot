@@ -48,7 +48,7 @@ digraph {
         style=bold; 
         color=red; 
         headlabel=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>    p=1 </td>
                 </tr>
@@ -66,7 +66,7 @@ digraph {
         style=bold; 
         color=blue; 
         headlabel=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td><br />   p=6</td>
                 </tr>
@@ -87,7 +87,7 @@ digraph {
             </table>
         >,
         headlabel=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td><br />  p=7</td>
                 </tr>

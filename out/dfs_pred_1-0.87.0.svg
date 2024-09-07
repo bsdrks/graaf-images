@@ -78,7 +78,7 @@
 <title>2&#45;&gt;5</title>
 <path fill="none" stroke="red" stroke-width="2" d="M68.76,-68.76C59.36,-59.36 46.49,-46.49 36.06,-36.06"/>
 <polygon fill="red" stroke="red" stroke-width="2" points="38.73,-35.76 33,-33 35.76,-38.73 38.73,-35.76"/>
-<text text-anchor="start" x="30.86" y="-33.56" font-family="monospace" font-size="9.00"> &#160;&#160;&#160;p=2</text>
+<text text-anchor="start" x="31.86" y="-34.56" font-family="monospace" font-size="9.00"> &#160;&#160;&#160;p=2</text>
 </g>
 </g>
 </svg>

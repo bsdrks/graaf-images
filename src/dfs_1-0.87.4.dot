@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname="monospace", fixedsize=true, width="0.85"];
+    node [shape=circle, fontname="monospace", fixedsize=true, width="0.8"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=circo;
     scale=1.0;
@@ -12,12 +12,12 @@ digraph {
 
     0 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>0</b></td>
+                    <td>0</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">t(0)=<b>0</b></font></td>
+                    <td><font point-size="9">t(0)=0</font></td>
                 </tr>
             </table>
         >,
@@ -27,12 +27,12 @@ digraph {
 
     1 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>1</b></td>
+                    <td>1</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">t(1)=<b>1</b></font></td>
+                    <td><font point-size="9">t(1)=1</font></td>
                 </tr>
             </table>
         >,
@@ -42,12 +42,12 @@ digraph {
 
     2 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>2</b></td>
+                    <td>2</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">t(2)=<b>3</b></font></td>
+                    <td><font point-size="9">t(2)=3</font></td>
                 </tr>
             </table>
         >,
@@ -55,9 +55,9 @@ digraph {
 
     3 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>3</b></td>
+                    <td>3</td>
                 </tr>
             </table>
         >,
@@ -65,12 +65,12 @@ digraph {
 
     4 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>4</b></td>
+                    <td>4</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">t(4)=<b>2</b></font></td>
+                    <td><font point-size="9">t(4)=2</font></td>
                 </tr>
             </table>
         >,
@@ -78,12 +78,12 @@ digraph {
 
     5 [
         label=<
-            <table border="0" cellpadding="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td><b>5</b></td>
+                    <td>5</td>
                 </tr>
                 <tr>
-                    <td><font point-size="10">t(5)=<b>4</b></font></td>
+                    <td><font point-size="9">t(5)=4</font></td>
                 </tr>
             </table>
         >,
