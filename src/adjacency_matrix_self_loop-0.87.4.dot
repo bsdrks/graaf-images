@@ -1,0 +1,12 @@
+digraph {
+    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.6"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=circo;
+    pad=0.2;
+
+    0 -> 1;
+    1 -> 2;
+    3 -> 2;
+    3 -> 0 [style=invis];
+    2 -> 2 [style=bold, color=red];
+}
