@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.75"];
+    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.85"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     // layout=neato;
     // scale=3.0;
@@ -11,12 +11,12 @@ digraph {
 
     0 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td>0</td>
+                    <td><b>0</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(0)=16</font></td>
+                    <td><font point-size="10">d(0)=<b>16</b></font></td>
                 </tr>
             </table>
         >,
@@ -24,12 +24,12 @@ digraph {
 
     1 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td>1</td>
+                    <td><b>1</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(1)=15</font></td>
+                    <td><font point-size="10">d(1)=<b>15</b></font></td>
                 </tr>
             </table>
         >,
@@ -37,12 +37,12 @@ digraph {
 
     2 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td>2</td>
+                    <td><b>2</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(2)=3</font></td>
+                    <td><font point-size="10">d(2)=<b>3</b></font></td>
                 </tr>
             </table>
         >,
@@ -50,12 +50,12 @@ digraph {
 
     3 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td>3</td>
+                    <td><b>3</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(3)=16</font></td>
+                    <td><font point-size="10">d(3)=<b>16</b></font></td>
                 </tr>
             </table>
         >,
@@ -63,12 +63,12 @@ digraph {
 
     4 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td>4</td>
+                    <td><b>4</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">e(4)=17</font></td>
+                    <td><font point-size="10">e(4)=<b>17</b></font></td>
                 </tr>
             </table>
         >,
@@ -76,12 +76,12 @@ digraph {
 
     5 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td>5</td>
+                    <td><b>5</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(5)=17</font></td>
+                    <td><font point-size="10">d(5)=<b>17</b></font></td>
                 </tr>
             </table>
         >,
@@ -89,12 +89,12 @@ digraph {
 
     6 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td>6</td>
+                    <td><b>6</b></td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(6)=7</font></td>
+                    <td><font point-size="10">d(6)=<b>7</b></font></td>
                 </tr>
             </table>
         >,

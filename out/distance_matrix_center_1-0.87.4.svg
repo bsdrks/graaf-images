@@ -13,16 +13,14 @@
 <title>0</title>
 <ellipse fill="none" stroke="red" stroke-width="2" cx="125" cy="-508" rx="27" ry="27"/>
 <text text-anchor="start" x="120.88" y="-508.95" font-family="monospace" font-size="14.00">0</text>
-<text text-anchor="start" x="109.25" y="-497.45" font-family="monospace" font-size="9.00">e(0)=</text>
-<text text-anchor="start" x="135.5" y="-497.45" font-family="monospace" font-size="9.00" fill="red">5</text>
+<text text-anchor="start" x="109.25" y="-496.45" font-family="monospace" font-size="9.00">e(0)=5</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
 <ellipse fill="none" stroke="red" stroke-width="2" cx="126" cy="-418.75" rx="27" ry="27"/>
 <text text-anchor="start" x="121.88" y="-419.7" font-family="monospace" font-size="14.00">1</text>
-<text text-anchor="start" x="110.25" y="-408.2" font-family="monospace" font-size="9.00">e(1)=</text>
-<text text-anchor="start" x="136.5" y="-408.2" font-family="monospace" font-size="9.00" fill="red">5</text>
+<text text-anchor="start" x="110.25" y="-407.2" font-family="monospace" font-size="9.00">e(1)=5</text>
 </g>
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge">
