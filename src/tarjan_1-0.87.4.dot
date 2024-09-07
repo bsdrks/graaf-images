@@ -96,15 +96,14 @@ digraph {
 
 
     0 -> 1 [color=lightsalmon; style=bold];
-    1 -> 2 [color="#bbb"; style=dashed];
+    1 -> 2 [color="#bbb"];
     1 -> 4 [color=lightsalmon; style=bold];
-    // 1 -> 5 [color="#bbb"; style=dashed];
     2 -> 3 [color=plum3; dir=both; style=bold];
-    2 -> 6 [color="#bbb"; style=dashed];
+    2 -> 6 [color="#bbb"];
     3 -> 7 [color=plum3; dir=both; style=bold];
     4 -> 0 [color=lightsalmon; style=bold];
-    4 -> 5 [color="#bbb"; style=dashed];
+    4 -> 5 [color="#bbb"];
     5 -> 6 [color=palegreen3; dir=both; style=bold];
-    7 -> 6 [color="#bbb"; style=dashed];
+    7 -> 6 [color="#bbb"];
     // 2 -> 5 [style=invis];
 }
