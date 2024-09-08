@@ -1,10 +1,13 @@
 digraph {
     node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6];
-    pad=0.2;
     layout=neato;
-    mode="sgd";
+    scale=1.3;
     normalize=true;
+    pad=0.2;
 
-    0 -> 1 [dir="both"];
+    0 -> {1, 2, 3} [dir="both"];
+    3 -> 1 [dir="both"];
+    1 -> 2 [dir="both"];
+    2 -> 3 [dir="both"];
 }
