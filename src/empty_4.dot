@@ -3,7 +3,12 @@ digraph {
     edge [arrowsize=0.6];
     normalize=true;
     layout=neato;
+    mode="sgd";
+    normalize=true;
     pad=0.2;
 
-    0 -> {1; 2; 3} [color="white"];
+    0 -> 1 [style=invis];
+    1 -> 2 [style=invis];
+    2 -> 3 [style=invis];
+    3 -> 0 [style=invis];
 }

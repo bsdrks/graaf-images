@@ -2,11 +2,11 @@ digraph {
     node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6];
     layout=neato;
+    mode="sgd";
     normalize=true;
     pad=0.2;
 
     0 -> 1;
     1 -> 2;
     2 -> 3;
-    0 -> 2 [style=invis];
 }
