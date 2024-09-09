@@ -1,0 +1,26 @@
+digraph {
+    node [
+        fixedsize=true;
+        fontname="monospace";
+        shape=circle;
+        width="0.5";
+    ];
+
+    edge [
+        arrowsize=0.6;
+    ];
+
+    layout=neato;
+    mode="sgd";
+    normalize=true;
+    pad=0.2;
+
+    0 -> 1 [dir=both; color=blue];
+    0 -> 2 [dir=both; color=blue];
+    0 -> 3 [dir=both; color=blue];
+    0 -> 4 [dir=both; color=blue];
+    1 -> 2 [dir=both; color=red];
+    1 -> 4 [dir=both; color=red];
+    2 -> 3 [dir=both; color=red];
+    3 -> 4 [dir=both; color=red];
+}

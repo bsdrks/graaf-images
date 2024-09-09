@@ -1,0 +1,28 @@
+digraph {
+    node [
+        fixedsize=true;
+        fontname="monospace";
+        shape=circle;
+        width="0.5";
+    ];
+
+    edge [
+        arrowsize=0.6;
+        color=red;
+        dir=both;
+    ];
+
+    layout=neato;
+    mode="sgd";
+    normalize=true;
+    pad=0.2;
+
+    0 -> 1 [style=invis];
+    0 -> 2 [style=invis];
+    0 -> 3 [style=invis];
+    0 -> 4 [style=invis];
+    1 -> 2;
+    1 -> 4;
+    2 -> 3;
+    3 -> 4;
+}
