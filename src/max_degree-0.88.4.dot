@@ -27,6 +27,8 @@ digraph {
                 </tr>
             </table>
         >;
+        color=red;
+        style=bold
     ];
 
     1 [
@@ -66,8 +68,6 @@ digraph {
                 </tr>
             </table>
         >;
-        color=red;
-        style=bold;
     ];
 
     0 -> 1 [
