@@ -11,16 +11,20 @@
 <!-- 0 -->
 <g id="node1" class="node">
 <title>0</title>
-<ellipse fill="none" stroke="black" cx="95.9" cy="-101.6" rx="27" ry="27"/>
+<ellipse fill="none" stroke="red" stroke-width="2" cx="95.9" cy="-101.6" rx="27" ry="27"/>
 <text text-anchor="start" x="91.78" y="-103.55" font-family="monospace" font-size="14.00">0</text>
-<text text-anchor="start" x="80.15" y="-89.05" font-family="monospace" font-size="9.00">d(0)=6</text>
+<text text-anchor="start" x="77.9" y="-90.05" font-family="monospace" font-size="9.00">d</text>
+<text text-anchor="start" x="83.15" y="-90.05" font-family="monospace" baseline-shift="super" font-size="9.00">+</text>
+<text text-anchor="start" x="87.65" y="-90.05" font-family="monospace" font-size="9.00">(0)=3</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
 <ellipse fill="none" stroke="black" cx="183.62" cy="-101.6" rx="27" ry="27"/>
 <text text-anchor="start" x="179.49" y="-103.55" font-family="monospace" font-size="14.00">1</text>
-<text text-anchor="start" x="167.87" y="-89.05" font-family="monospace" font-size="9.00">d(1)=3</text>
+<text text-anchor="start" x="165.62" y="-90.05" font-family="monospace" font-size="9.00">d</text>
+<text text-anchor="start" x="170.87" y="-90.05" font-family="monospace" baseline-shift="super" font-size="9.00">+</text>
+<text text-anchor="start" x="175.37" y="-90.05" font-family="monospace" font-size="9.00">(1)=2</text>
 </g>
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge">
@@ -34,7 +38,9 @@
 <title>2</title>
 <ellipse fill="none" stroke="black" cx="140.57" cy="-27" rx="27" ry="27"/>
 <text text-anchor="start" x="136.45" y="-28.95" font-family="monospace" font-size="14.00">2</text>
-<text text-anchor="start" x="124.82" y="-14.45" font-family="monospace" font-size="9.00">d(2)=3</text>
+<text text-anchor="start" x="122.57" y="-15.45" font-family="monospace" font-size="9.00">d</text>
+<text text-anchor="start" x="127.82" y="-15.45" font-family="monospace" baseline-shift="super" font-size="9.00">+</text>
+<text text-anchor="start" x="132.32" y="-15.45" font-family="monospace" font-size="9.00">(2)=1</text>
 </g>
 <!-- 0&#45;&gt;2 -->
 <g id="edge2" class="edge">
@@ -46,9 +52,11 @@
 <!-- 3 -->
 <g id="node4" class="node">
 <title>3</title>
-<ellipse fill="none" stroke="red" stroke-width="2" cx="27" cy="-156.37" rx="27" ry="27"/>
+<ellipse fill="none" stroke="black" cx="27" cy="-156.37" rx="27" ry="27"/>
 <text text-anchor="start" x="22.88" y="-158.32" font-family="monospace" font-size="14.00">3</text>
-<text text-anchor="start" x="11.25" y="-143.82" font-family="monospace" font-size="9.00">d(3)=2</text>
+<text text-anchor="start" x="9" y="-144.82" font-family="monospace" font-size="9.00">d</text>
+<text text-anchor="start" x="14.25" y="-144.82" font-family="monospace" baseline-shift="super" font-size="9.00">+</text>
+<text text-anchor="start" x="18.75" y="-144.82" font-family="monospace" font-size="9.00">(3)=1</text>
 </g>
 <!-- 0&#45;&gt;3 -->
 <g id="edge3" class="edge">
