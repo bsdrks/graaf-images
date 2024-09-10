@@ -1,7 +1,10 @@
 digraph {
     node [shape=circle, fontname="monospace", fixedsize=true, width=0.5];
     edge [arrowsize=0.6];
-    layout=circo;
+    layout=neato;
+    mode="sgd";
+    normalize=true;
+    maxiter=100000;
     pad=0.2;
 
     0 -> {1} [dir=both];

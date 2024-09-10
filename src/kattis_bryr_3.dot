@@ -1,19 +1,124 @@
 digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    layout=circo;
+    layout=neato;
+    mode="sgd";
+    start=0;
     normalize=true;
+    maxiter=10000;
+    scale=1.15;
     pad=0.2;
 
-    0 -> {3} [dir=both, label="0", color="#bbb"];
-    1 -> {7} [dir=both, label="0   ", color="#bbb"];
-    2 -> {6} [dir=both, label="0", color="#bbb"];
-    3 -> {5} [dir=both, label=" 0", color="#bbb"];
-    3 -> {4} [dir=both, label="  0 ", color="#bbb"];
-    3 -> {7} [dir=both, label="0   ", color="#bbb"];
-    4 -> {6} [dir=both, label="1 "];
-    4 -> {8} [dir=both, label="                       1  "];
-    5 -> {6} [dir=both, label="1  "];
-    5 -> {8} [dir=both, label="0", color="#bbb"];
-    6 -> {9} [dir=both, label="1    "];
+    0 -> 3 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    1 -> 7 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="3">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    2 -> 6 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    3 -> 4 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    3 -> 5 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    5 -> 8 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    3 -> 7 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="1">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    4 -> 6 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >;
+        dir=both;
+    ];
+
+    4 -> 8 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >;
+        dir=both;
+    ];
+
+    5 -> 6 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >;
+        dir=both;
+    ];
+
+    6 -> 9 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        >;
+        dir=both;
+    ];
+
+    8 -> 6 [style=invis; dir=both];
+    8 -> 3 [style=invis; dir=both];
 }

@@ -1,11 +1,33 @@
 digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    layout=circo;
+    layout=neato;
+    maxiter=300000;
+    normalize=true;
+    mode="sgd";
     pad=0.2;
 
-    0 -> {1} [label="    2  "];
-    1 -> {2} [label="2"];
-    3 -> {0} [label="0"];
-    2 -> {3} [style=invis];
+    0 -> {1} [label=<
+        <table border="0" cellborder="0" cellspacing="1">
+            <tr>
+                <td>2</td>
+            </tr>
+        </table>
+    >];
+
+    1 -> {2} [label=<
+        <table border="0" cellborder="0" cellspacing="1">
+            <tr>
+                <td>2</td>
+            </tr>
+        </table>
+    >];
+
+    3 -> {0} [label=<
+        <table border="0" cellborder="0" cellspacing="1">
+            <tr>
+                <td>0</td>
+            </tr>
+        </table>
+    >];
 }

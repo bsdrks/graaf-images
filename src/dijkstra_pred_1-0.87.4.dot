@@ -3,7 +3,8 @@ digraph {
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=neato;
     scale=1.4;
-    // normalize=true;
+    normalize=true;
+    maxiter=10000;
     pad=0.2;
     // splines=line
 
@@ -106,7 +107,7 @@ digraph {
         color=red;
         style=bold;
         label=<
-            <table border="0" cellpadding="2" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="2">
                 <tr>
                     <td>1</td>
                 </tr>
@@ -130,7 +131,7 @@ digraph {
         color="#bbb";
         fontcolor="#bbb";
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="0">
                 <tr>
                     <td>6</td>
                 </tr>
@@ -154,7 +155,7 @@ digraph {
         color="#bbb";
         fontcolor="#bbb";
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="0">
                 <tr>
                     <td>2</td>
                 </tr>

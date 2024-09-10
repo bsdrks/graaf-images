@@ -4,7 +4,8 @@ digraph {
     layout=neato;
     mode="sgd";
     scale=1.2;
-    // normalize=true;
+    maxiter=100000;
+    normalize=true;
     pad=0.2;
     splines=line
 
@@ -150,6 +151,7 @@ digraph {
 
 
     0 -> 1 [color=lightsalmon; style=bold];
+    0 -> 5 [style=invis];
     1 -> 2 [color=lightsalmon; style=bold];
     1 -> 3 [style=invis];
     2 -> 0 [color=lightsalmon; style=bold];
@@ -157,11 +159,10 @@ digraph {
     3 -> 5 [style=invis];
     4 -> 5 [style=invis];
     4 -> 6 [color=palegreen3; style=bold];
-    6 -> 7 [color=palegreen3; style=bold];
-    7 -> 3 [color=palegreen3; style=bold];
     5 -> 8 [color=plum3; style=bold];
+    6 -> 7 [color=palegreen3; style=bold];
+    6 -> 9 [style=invis];
+    7 -> 3 [color=palegreen3; style=bold];
     8 -> 9 [color=plum3; style=bold];
     9 -> 5 [color=plum3; style=bold];
-    0 -> 5 [style=invis];
-    6 -> 9 [style=invis];
 }

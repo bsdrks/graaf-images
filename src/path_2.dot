@@ -1,7 +1,9 @@
 digraph {
-    node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
+    node [shape=circle; fontname="monospace"; fixedsize=true; width="0.5"];
     edge [arrowsize=0.6];
     layout=neato;
+    mode="sgd";
+    maxiter=10000;
     normalize=true;
     pad=0.2;
 

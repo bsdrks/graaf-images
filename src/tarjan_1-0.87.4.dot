@@ -4,6 +4,7 @@ digraph {
     layout=neato;
     start=3;
     normalize=true;
+    maxiter=100000;
     pad=0.2;
     mode="sgd";
     splines=line

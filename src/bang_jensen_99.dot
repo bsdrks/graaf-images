@@ -2,19 +2,111 @@ digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.5, fontname="monospace", fontsize=9];
     layout=neato;
+    mode="sgd";
+    maxiter=10000;
+    scale=1.2;
     normalize=true;
     pad=0.2;
 
     1, 2, 3, 4, 5, 0;
 
-    0 -> {1} [label="8  "];
-    0 -> {2} [label="3 "];
-    1 -> {2} [label="-5"];
-    2 -> {3} [label=" -2"];
-    2 -> {4} [label="4"];
-    3 -> {5} [label="-2"];
-    4 -> {3} [label="10  "];
-    4 -> {5} [label="9 "];
-    5 -> {3} [label="5"];
-    5 -> {4} [label="-3 "];
+    0 -> 1 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="0">
+                <tr>
+                    <td>8</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 2 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="1">
+                <tr>
+                    <td>3</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    1 -> 2 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="1">
+                <tr>
+                    <td>-5</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    2 -> 3 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="0">
+                <tr>
+                    <td>-2</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    2 -> 4 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="1">
+                <tr>
+                    <td>4</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    3 -> 5 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="1">
+                <tr>
+                    <td>-2</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    4 -> 3 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="0">
+                <tr>
+                    <td>10</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    4 -> 5 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="1">
+                <tr>
+                    <td>9</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    5 -> 3 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="2">
+                <tr>
+                    <td bgcolor="#ffffffbb">5</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    5 -> 4 [
+        label=<
+            <table border="0" cellborder="0" cellpadding="2">
+                <tr>
+                    <td>-3</td>
+                </tr>
+            </table>
+        >
+    ];
 }

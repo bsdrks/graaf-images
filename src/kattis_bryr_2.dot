@@ -1,13 +1,61 @@
 digraph {
-    node [shape=circle, fontname="monospace"];
-    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    layout=circo;
+    node [shape=circle; fontname="monospace"; fixedsize=true; width="0.5"];
+    edge [arrowsize=0.6; fontname="monospace"; fontsize=9];
+    layout=neato;
+    start=0;
+    mode="sgd";
+    normalize=true;
+    maxiter=10000;
     pad=0.2;
 
-    0 -> {1} [dir=both, label=" 1  "];
-    0 -> {3} [dir=both, label=" 1"];
-    1 -> {2} [dir=both, label=" 1"];
-    2 -> {3} [dir=both, label=" 1  "];
-    3 -> {4} [dir=both, label="1"];
-    4 -> {5} [dir=both, label="1"];
+    0 -> 1 [dir=both; label=<
+        <table border="0" cellborder="0" cellspacing="4">
+            <tr>
+                <td>1</td>
+            </tr>
+        </table>
+    >];
+
+    0 -> 3 [dir=both; label=<
+        <table border="0" cellborder="0" cellspacing="0">
+            <tr>
+                <td>1</td>
+            </tr>
+        </table>
+    >];
+
+    1 -> 2 [dir=both; label=<
+        <table border="0" cellborder="0" cellspacing="0">
+            <tr>
+                <td>1</td>
+            </tr>
+        </table>
+    >];
+
+    2 -> 3 [dir=both; label=<
+        <table border="0" cellborder="0" cellspacing="0">
+            <tr>
+                <td>1</td>
+            </tr>
+        </table>
+    >];
+
+    3 -> 4 [dir=both; label=<
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td bgcolor="#ffffffbb">1</td>
+            </tr>
+        </table>
+    >];
+
+    4 -> 5 [dir=both; label=<
+        <table border="0" cellborder="0" cellspacing="0">
+            <tr>
+                <td>1</td>
+            </tr>
+        </table>
+    >];
+
+    0 -> 5 [style=invis];
+    1 -> 5 [style=invis];
 }

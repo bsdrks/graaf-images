@@ -5,6 +5,7 @@ digraph {
     layout=neato;
     mode="sgd";
     normalize=true;
+    maxiter=10000;
 
     0 -> 1 [dir="both"];
 }

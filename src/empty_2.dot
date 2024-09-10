@@ -3,6 +3,8 @@ digraph {
     edge [arrowsize=0.6];
     normalize=true;
     layout=neato;
+    mode="sgd";
+    maxiter=10000;
     pad=0.2;
 
     0 -> 1 -> 0 [color="white"];

@@ -15,6 +15,7 @@ digraph {
     normalize=true;
     pad=0.2;
     scale=1.2;
+    maxiter=10000;
 
     0 [
         label=<
