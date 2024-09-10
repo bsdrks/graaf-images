@@ -1,0 +1,167 @@
+digraph {
+    node [shape=circle; style=bold; fontname="monospace"; fixedsize=true; width="0.75"];
+    edge [arrowsize=0.6; fontname="monospace"; fontsize=9];
+    layout=neato;
+    mode="sgd";
+    scale=1.2;
+    // normalize=true;
+    pad=0.2;
+    splines=line
+
+    0 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(0)=0</font></td>
+                </tr>
+            </table>
+        >;
+        color=lightsalmon;
+    ];
+
+    1 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(1)=0</font></td>
+                </tr>
+            </table>
+        >;
+        color=lightsalmon;
+    ];
+
+    2 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(2)=0</font></td>
+                </tr>
+            </table>
+        >;
+        color=lightsalmon;
+    ];
+
+    3 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(3)=2</font></td>
+                </tr>
+            </table>
+        >;
+        color=palegreen3;
+    ];
+
+    4 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(4)=2</font></td>
+                </tr>
+            </table>
+        >;
+        color=palegreen3;
+    ];
+
+    5 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(5)=1</font></td>
+                </tr>
+            </table>
+        >;
+        color=plum3;
+    ];
+
+    6 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(6)=2</font></td>
+                </tr>
+            </table>
+        >;
+        color=palegreen3;
+    ];
+
+    7 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(7)=2</font></td>
+                </tr>
+            </table>
+        >;
+        color=palegreen3;
+    ];
+
+    8 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(8)=1</font></td>
+                </tr>
+            </table>
+        >;
+        color=plum3;
+    ];
+
+    9 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td><font point-size="9">c(9)=1</font></td>
+                </tr>
+            </table>
+        >;
+        color=plum3;
+    ];
+
+
+    0 -> 1 [color=lightsalmon; style=bold];
+    1 -> 2 [color=lightsalmon; style=bold];
+    1 -> 3 [color="#bbb"];
+    2 -> 0 [color=lightsalmon; style=bold];
+    3 -> 4 [color=palegreen3; style=bold];
+    3 -> 5 [color="#bbb"];
+    4 -> 5 [color="#bbb"];
+    4 -> 6 [color=palegreen3; style=bold];
+    6 -> 7 [color=palegreen3; style=bold];
+    7 -> 3 [color=palegreen3; style=bold];
+    5 -> 8 [color=plum3; style=bold];
+    8 -> 9 [color=plum3; style=bold];
+    9 -> 5 [color=plum3; style=bold];
+    0 -> 5 [color="#bbb"];
+    6 -> 9 [color="#bbb"];
+}
