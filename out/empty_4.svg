@@ -5,9 +5,9 @@
  -->
 <!-- Pages: 1 -->
 <svg width="143pt" height="143pt"
- viewBox="0.00 0.00 143.43 142.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 128.2)">
-<polygon fill="white" stroke="none" points="-14.4,14.4 -14.4,-128.2 129.03,-128.2 129.03,14.4 -14.4,14.4"/>
+ viewBox="0.00 0.00 142.75 142.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 128.35)">
+<polygon fill="white" stroke="none" points="-14.4,14.4 -14.4,-128.35 128.35,-128.35 128.35,14.4 -14.4,14.4"/>
 <!-- 0 -->
 <g id="node1" class="node">
 <title>0</title>
@@ -17,22 +17,22 @@
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
-<ellipse fill="none" stroke="black" cx="95.73" cy="-18" rx="18" ry="18"/>
-<text text-anchor="middle" x="95.73" y="-13.32" font-family="monospace" font-size="14.00">1</text>
+<ellipse fill="none" stroke="black" cx="95.95" cy="-18" rx="18" ry="18"/>
+<text text-anchor="middle" x="95.95" y="-13.32" font-family="monospace" font-size="14.00">1</text>
 </g>
 <!-- 0&#45;&gt;1 -->
 <!-- 2 -->
 <g id="node3" class="node">
 <title>2</title>
-<ellipse fill="none" stroke="black" cx="96.63" cy="-95.8" rx="18" ry="18"/>
-<text text-anchor="middle" x="96.63" y="-91.12" font-family="monospace" font-size="14.00">2</text>
+<ellipse fill="none" stroke="black" cx="95.95" cy="-95.95" rx="18" ry="18"/>
+<text text-anchor="middle" x="95.95" y="-91.27" font-family="monospace" font-size="14.00">2</text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <!-- 3 -->
 <g id="node4" class="node">
 <title>3</title>
-<ellipse fill="none" stroke="black" cx="18.77" cy="-95.76" rx="18" ry="18"/>
-<text text-anchor="middle" x="18.77" y="-91.08" font-family="monospace" font-size="14.00">3</text>
+<ellipse fill="none" stroke="black" cx="18" cy="-95.95" rx="18" ry="18"/>
+<text text-anchor="middle" x="18" y="-91.27" font-family="monospace" font-size="14.00">3</text>
 </g>
 <!-- 2&#45;&gt;3 -->
 <!-- 3&#45;&gt;0 -->
