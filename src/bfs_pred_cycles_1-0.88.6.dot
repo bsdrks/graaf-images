@@ -3,8 +3,9 @@ digraph {
     edge [arrowsize=0.6; fontname="monospace"; fontsize=9];
     layout=neato;
     mode="sgd";
+    maxiter=100000;
     scale=1.2;
-    // normalize=true;
+    normalize=true;
     pad=0.2;
     splines=line
 
