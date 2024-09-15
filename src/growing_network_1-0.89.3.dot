@@ -1,0 +1,16 @@
+digraph {
+    node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
+    edge [arrowsize=0.6];
+    layout=neato;
+    scale=1.0;
+    mode="sgd";
+    maxiter=100000;
+    normalize=true;
+    pad=0.2;
+
+    1 -> 0;
+    2 -> 0;
+    3 -> 1;
+    4 -> 0;
+    5 -> 2;
+}
