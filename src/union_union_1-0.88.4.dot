@@ -16,10 +16,10 @@ digraph {
     normalize=true;
     pad=0.2;
 
-    0 -> 1 [dir=both; color=blue];
-    0 -> 2 [dir=both; color=blue];
-    0 -> 3 [dir=both; color=blue];
-    0 -> 4 [dir=both; color=blue];
+    0 -> 1 [dir=both; color=skyblue];
+    0 -> 2 [dir=both; color=skyblue];
+    0 -> 3 [dir=both; color=skyblue];
+    0 -> 4 [dir=both; color=skyblue];
     1 -> 2 [dir=both; color=red];
     1 -> 4 [dir=both; color=red];
     2 -> 3 [dir=both; color=red];

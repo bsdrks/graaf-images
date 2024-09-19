@@ -9,7 +9,7 @@ digraph {
 
     2 [color="#bbb", fontcolor="#bbb"];
     3, 0, 1, 4 [style="bold"; color=red];
-    5, 6, 7 [style="bold"; color=blue];
+    5, 6, 7 [style="bold"; color=skyblue];
 
     3 -> 0 [
         style=bold; 
@@ -64,7 +64,7 @@ digraph {
 
     6 -> 5 [
         style=bold; 
-        color=blue; 
+        color=skyblue; 
         headlabel=<
             <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
@@ -78,7 +78,7 @@ digraph {
 
     7 -> 6 [
         style=bold; 
-        color=blue; 
+        color=skyblue; 
         taillabel=<
             <table border="0" cellpadding="2" cellspacing="2">
                 <tr>

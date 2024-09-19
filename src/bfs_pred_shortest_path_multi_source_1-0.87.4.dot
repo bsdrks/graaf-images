@@ -8,7 +8,7 @@ digraph {
     splines=line;
 
     3, 0, 1, 2 [style="bold"; color=red];
-    7, 6, 5 [style=bold; color=blue];
+    7, 6, 5 [style=bold; color=skyblue];
     4 [color="#bbb", fontcolor="#bbb"];
 
     0 [
@@ -114,11 +114,11 @@ digraph {
 
     2 -> 6 [color="#bbb"];
 
-    6 -> 5 [style=bold; color=blue];
+    6 -> 5 [style=bold; color=skyblue];
 
     6 -> 7 [color="#bbb"];
 
-    7 -> 6 [style=bold; color=blue];
+    7 -> 6 [style=bold; color=skyblue];
 
     1 -> 5 [style=invis];
 }

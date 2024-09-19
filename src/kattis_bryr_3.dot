@@ -1,12 +1,6 @@
 digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    layout=neato;
-    mode="sgd";
-    start=0;
-    normalize=true;
-    maxiter=10000;
-    scale=1.15;
     pad=0.2;
 
     0 -> 3 [dir=both, label=<
@@ -20,9 +14,19 @@ digraph {
     ];
 
     1 -> 7 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="3">
+            <table border="0" cellborder="0" cellspacing="0">
                 <tr>
                     <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
+    ];
+
+    1 -> 9 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>1</td>
                 </tr>
             </table>
         >;
@@ -50,16 +54,6 @@ digraph {
     ];
 
     3 -> 5 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
-                <tr>
-                    <td>0</td>
-                </tr>
-            </table>
-        >;
-        color="#bbb";
-    ];
-
-    5 -> 8 [dir=both, label=<
             <table border="0" cellborder="0" cellspacing="0">
                 <tr>
                     <td>0</td>
@@ -107,6 +101,16 @@ digraph {
             </table>
         >;
         dir=both;
+    ];
+
+    5 -> 8 [dir=both, label=<
+            <table border="0" cellborder="0" cellspacing="0">
+                <tr>
+                    <td>0</td>
+                </tr>
+            </table>
+        >;
+        color="#bbb";
     ];
 
     6 -> 9 [dir=both, label=<

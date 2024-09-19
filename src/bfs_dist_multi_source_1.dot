@@ -9,8 +9,8 @@ digraph {
 
     3 [style="bold"; color=red];
     0, 1, 2, 4 [style=bold, color=red];
-    7 [style=bold; color=blue];
-    6, 5 [style=bold, color=blue];
+    7 [style=bold; color=skyblue];
+    6, 5 [style=bold, color=skyblue];
 
     3 -> 0 [style=bold; color=red; headlabel="d=1 ", taillabel="d=0 "];
     0 -> 1 [style=bold; color=red; headlabel="   d=2"];
@@ -19,7 +19,7 @@ digraph {
     2 -> 3 [color="#bbb"];
     2 -> 5 [color="#bbb"];
     2 -> 6 [color="#bbb"];
-    6 -> 5 [style=bold; color=blue; headlabel="   d=2"];
+    6 -> 5 [style=bold; color=skyblue; headlabel="   d=2"];
     6 -> 7 [color="#bbb"];
-    7 -> 6 [style=bold; color=blue; headlabel="d=1  ", taillabel="d=0  "];
+    7 -> 6 [style=bold; color=skyblue; headlabel="d=1  ", taillabel="d=0  "];
 }
