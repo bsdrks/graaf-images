@@ -1,12 +1,19 @@
 digraph {
     node [shape=circle, fontname="monospace"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=neato;
+    mode="sgd";
+    normalize=true;
+    maxiter=100000;
+    overlap=false;
+    scale=1.2;
+    overlap_scaling=2.0;
     pad=0.2;
 
     0 -> 3 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>0</td>
+                    <td bgcolor="#ffffffcc">0</td>
                 </tr>
             </table>
         >;
@@ -14,9 +21,9 @@ digraph {
     ];
 
     1 -> 7 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>0</td>
+                    <td bgcolor="#ffffffcc">0</td>
                 </tr>
             </table>
         >;
@@ -24,9 +31,9 @@ digraph {
     ];
 
     1 -> 9 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>1</td>
+                    <td bgcolor="#ffffffcc">1</td>
                 </tr>
             </table>
         >;
@@ -34,9 +41,9 @@ digraph {
     ];
 
     2 -> 6 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>0</td>
+                    <td bgcolor="#ffffffcc">0</td>
                 </tr>
             </table>
         >;
@@ -44,9 +51,9 @@ digraph {
     ];
 
     3 -> 4 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>0</td>
+                    <td bgcolor="#ffffffcc">0</td>
                 </tr>
             </table>
         >;
@@ -54,9 +61,9 @@ digraph {
     ];
 
     3 -> 5 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>0</td>
+                    <td bgcolor="#ffffffcc">0</td>
                 </tr>
             </table>
         >;
@@ -64,9 +71,9 @@ digraph {
     ];
 
     3 -> 7 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="1">
+            <table border="0" cellpadding="1" cellspacing="1">
                 <tr>
-                    <td>0</td>
+                    <td bgcolor="#ffffffcc">0</td>
                 </tr>
             </table>
         >;
@@ -74,9 +81,9 @@ digraph {
     ];
 
     4 -> 6 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>1</td>
+                    <td bgcolor="#ffffffcc">1</td>
                 </tr>
             </table>
         >;
@@ -84,9 +91,9 @@ digraph {
     ];
 
     4 -> 8 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>1</td>
+                    <td bgcolor="#ffffffcc">1</td>
                 </tr>
             </table>
         >;
@@ -94,9 +101,9 @@ digraph {
     ];
 
     5 -> 6 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>1</td>
+                    <td bgcolor="#ffffffcc">1</td>
                 </tr>
             </table>
         >;
@@ -104,9 +111,9 @@ digraph {
     ];
 
     5 -> 8 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
-                    <td>0</td>
+                    <td bgcolor="#ffffffcc">0</td>
                 </tr>
             </table>
         >;
@@ -114,15 +121,15 @@ digraph {
     ];
 
     6 -> 9 [dir=both, label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="3" cellspacing="3">
                 <tr>
-                    <td>1</td>
+                    <td bgcolor="#ffffffcc">1</td>
                 </tr>
             </table>
         >;
         dir=both;
     ];
 
-    8 -> 6 [style=invis; dir=both];
-    8 -> 3 [style=invis; dir=both];
+    0 -> 5 [style=invis];
+    2 -> 4 [style=invis];
 }

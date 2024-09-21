@@ -6,6 +6,7 @@ digraph {
     maxiter=10000;
     normalize=true;
     pad=0.2;
+    scale=1.0;
 
     0 -> 1 -> 2 -> 3 -> 0 [dir="both"];
 }

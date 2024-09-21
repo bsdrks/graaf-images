@@ -1,13 +1,13 @@
 digraph {
     node [shape=circle, fontname="monospace", style=bold; fixedsize=true, width="0.75"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    // layout=circo;
-    // scale=1.4;
+    layout=neato;
+    mode="sgd";
+    maxiter=100000;
+    scale=1.2;
     ranksep=0.2;
     normalize=true;
     pad=0.2;
-    // newrank=true;
-    // splines=line
 
     0, 1, 2, 4 [color=red];
     3, 5, 6 [color=skyblue];
@@ -135,7 +135,7 @@ digraph {
         color="#bbb",
         fontcolor="#bbb",
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="3" cellspacing="2">
                 <tr>
                     <td>5</td>
                 </tr>
@@ -147,7 +147,7 @@ digraph {
         style=bold, 
         color=red, 
         label=<
-            <table border="0" cellpadding="4" cellspacing="0">
+            <table border="0" cellpadding="3" cellspacing="0">
                 <tr>
                     <td>1</td>
                 </tr>
@@ -198,7 +198,7 @@ digraph {
         style=bold, 
         color=skyblue, 
         label=<
-            <table border="0" cellpadding="2" cellspacing="0">
+            <table border="0" cellpadding="3" cellspacing="2">
                 <tr>
                     <td>3</td>
                 </tr>

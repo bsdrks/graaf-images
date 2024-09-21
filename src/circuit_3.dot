@@ -6,6 +6,7 @@ digraph {
     mode="sgd";
     normalize=true;
     pad=0.2;
+    scale=1.0;
 
     0 -> 1 -> 2 -> 0;
 }

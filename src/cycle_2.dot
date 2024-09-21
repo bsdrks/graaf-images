@@ -5,6 +5,7 @@ digraph {
     mode="sgd";
     maxiter=10000;
     normalize=true;
+    scale=1.0;
     pad=0.2;
 
     0 -> 1 [dir="both"];

@@ -1,7 +1,9 @@
 digraph {
     node [shape=circle; fontname="monospace"; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6; fontname="monospace"; fontsize=9];
+
     pad=0.2;
+    ranksep=0.3;
 
     0 -> {1} [label=<
         <table border="0" cellborder="0" cellspacing="1">
@@ -46,7 +48,7 @@ digraph {
         </table>
         >];
     2 -> {1} [label=<
-        <table border="0" cellborder="0" cellspacing="0">
+        <table border="0" cellborder="0" cellspacing="1">
             <tr>
                 <td>10</td>
             </tr>
@@ -60,7 +62,7 @@ digraph {
         </table>
     >];
     3 -> {0} [label=<
-        <table border="0" cellborder="0" cellspacing="3">
+        <table border="0" cellborder="0" cellspacing="1">
             <tr>
                 <td>13</td>
             </tr>

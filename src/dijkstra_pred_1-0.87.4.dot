@@ -2,11 +2,11 @@ digraph {
     node [shape=circle, fontname="monospace", fixedsize=true, width="0.75"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=neato;
-    scale=1.4;
+    scale=1.2;
+    mode="sgd";
     normalize=true;
-    maxiter=10000;
+    maxiter=100000;
     pad=0.2;
-    // splines=line
 
     3 [color="#bbb", fontcolor="#bbb"];
     0, 1, 2, 4, 5, 6 [style=bold, color=red];
@@ -167,7 +167,7 @@ digraph {
         style=bold; 
         color=red; 
         label=<
-            <table border="0" cellpadding="2" cellspacing="0">
+            <table border="0" cellpadding="3" cellspacing="4">
                 <tr>
                     <td>2</td>
                 </tr>
@@ -186,6 +186,4 @@ digraph {
             </table>
         >
     ];
-
-    6 -> 3 [style=invis];
 }

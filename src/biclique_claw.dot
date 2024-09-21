@@ -1,17 +1,19 @@
 digraph {
     node [shape=circle, fontname="monospace"; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6];
-    layout=circo;
+    layout=neato;
+    mode="sgd";
+    maxiter=1000000;
     normalize=true;
-    scale=0.8;
+    scale=1.0;
     pad=0.2;
 
-    subgraph cluster_0 {
-        0;
+    subgraph {
+        0 [style="filled"; color=salmon; fontcolor=white];
     }
 
-    subgraph cluster_1 {
-        1, 2, 3;
+    subgraph {
+        1, 2, 3 [style="filled"; color=skyblue; fontcolor=white];
     }
 
     0 -> {1, 2, 3} [dir="both"];

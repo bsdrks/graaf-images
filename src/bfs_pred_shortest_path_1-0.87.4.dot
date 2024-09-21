@@ -1,7 +1,9 @@
 digraph {
     node [shape=circle, fontname="monospace", fixedsize=true, width="0.5"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    layout=circo;
+    layout=neato;
+    mode="sgd";
+    maxiter=200000;
     scale=1.0;
     normalize=true;
     pad=0.2;
@@ -86,8 +88,6 @@ digraph {
         style=bold;
         color=red;
     ];
-
-    2 -> 3 [style=invis];
 
     1 -> 4 [
         color="#bbb";

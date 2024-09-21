@@ -12,9 +12,9 @@ digraph {
 
     0 -> 1 [
         label=<
-            <table border="0" cellborder="0" cellpadding="0">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>8</td>
+                    <td bgcolor="#ffffffcc">8</td>
                 </tr>
             </table>
         >
@@ -22,9 +22,9 @@ digraph {
 
     0 -> 2 [
         label=<
-            <table border="0" cellborder="0" cellpadding="1">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>3</td>
+                    <td bgcolor="#ffffffcc">3</td>
                 </tr>
             </table>
         >
@@ -32,9 +32,9 @@ digraph {
 
     1 -> 2 [
         label=<
-            <table border="0" cellborder="0" cellpadding="1">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>-5</td>
+                    <td bgcolor="#ffffffcc">-5</td>
                 </tr>
             </table>
         >
@@ -42,9 +42,9 @@ digraph {
 
     2 -> 3 [
         label=<
-            <table border="0" cellborder="0" cellpadding="0">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>-2</td>
+                    <td bgcolor="#ffffffcc">-2</td>
                 </tr>
             </table>
         >
@@ -52,9 +52,9 @@ digraph {
 
     2 -> 4 [
         label=<
-            <table border="0" cellborder="0" cellpadding="1">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>4</td>
+                    <td bgcolor="#ffffffcc">4</td>
                 </tr>
             </table>
         >
@@ -62,9 +62,9 @@ digraph {
 
     3 -> 5 [
         label=<
-            <table border="0" cellborder="0" cellpadding="1">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>-2</td>
+                    <td bgcolor="#ffffffcc">-2</td>
                 </tr>
             </table>
         >
@@ -72,9 +72,9 @@ digraph {
 
     4 -> 3 [
         label=<
-            <table border="0" cellborder="0" cellpadding="0">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>10</td>
+                    <td bgcolor="#ffffffcc">10</td>
                 </tr>
             </table>
         >
@@ -82,9 +82,9 @@ digraph {
 
     4 -> 5 [
         label=<
-            <table border="0" cellborder="0" cellpadding="1">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>9</td>
+                    <td bgcolor="#ffffffcc">9</td>
                 </tr>
             </table>
         >
@@ -92,9 +92,9 @@ digraph {
 
     5 -> 3 [
         label=<
-            <table border="0" cellborder="0" cellpadding="2">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td bgcolor="#ffffffbb">5</td>
+                    <td bgcolor="#ffffffcc">5</td>
                 </tr>
             </table>
         >
@@ -102,9 +102,9 @@ digraph {
 
     5 -> 4 [
         label=<
-            <table border="0" cellborder="0" cellpadding="2">
+            <table border="0" cellspacing="3" cellpadding="2">
                 <tr>
-                    <td>-3</td>
+                    <td bgcolor="#ffffffcc">-3</td>
                 </tr>
             </table>
         >

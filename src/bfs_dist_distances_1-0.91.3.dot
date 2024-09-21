@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.75"];
+    node [shape=circle, fontname="monospace", fixedsize=true];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=neato;
     mode="sgd";
@@ -7,19 +7,16 @@ digraph {
     scale=1.2;
     normalize=true;
     pad=0.2;
-    splines=line;
+    splines=line
 
-    3, 0, 1, 2, 4 [style="bold"; color=red];
-    7, 6, 5 [style=bold; color=skyblue];
+    3 [color="#bbb", fontcolor="#bbb"];
+    0, 1, 2, 4, 5 [style=bold, color=red];
 
     0 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td>0</td>
-                </tr>
-                <tr>
-                    <td><font point-size="9">d(0)=1</font></td>
                 </tr>
             </table>
         >,
@@ -29,12 +26,9 @@ digraph {
 
     1 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td>1</td>
-                </tr>
-                <tr>
-                    <td><font point-size="9">d(1)=2</font></td>
                 </tr>
             </table>
         >,
@@ -48,9 +42,6 @@ digraph {
                 <tr>
                     <td>2</td>
                 </tr>
-                <tr>
-                    <td><font point-size="9">d(2)=3</font></td>
-                </tr>
             </table>
         >,
     ];
@@ -60,9 +51,6 @@ digraph {
             <table border="0" cellpadding="1" cellspacing="0">
                 <tr>
                     <td>3</td>
-                </tr>
-                <tr>
-                    <td><font point-size="9">d(3)=0</font></td>
                 </tr>
             </table>
         >,
@@ -74,9 +62,6 @@ digraph {
                 <tr>
                     <td>4</td>
                 </tr>
-                <tr>
-                    <td><font point-size="9">d(4)=3</font></td>
-                </tr>
             </table>
         >,
     ];
@@ -87,61 +72,80 @@ digraph {
                 <tr>
                     <td>5</td>
                 </tr>
-                <tr>
-                    <td><font point-size="9">d(5)=2</font></td>
-                </tr>
-            </table>
-        >,
-    ];
-
-    6 [
-        label=<
-            <table border="0" cellpadding="1" cellspacing="0">
-                <tr>
-                    <td>6</td>
-                </tr>
-                <tr>
-                    <td><font point-size="9">d(6)=1</font></td>
-                </tr>
-            </table>
-        >,
-    ];
-
-    7 [
-        label=<
-            <table border="0" cellpadding="1" cellspacing="0">
-                <tr>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td><font point-size="9">d(7)=0</font></td>
-                </tr>
             </table>
         >,
     ];
 
 
-
-    3 -> 0 [
+    0 -> 1 [
         style=bold;
         color=red;
     ];
 
-    0 -> 1 [style=bold; color=red];
+    0 -> 2 [
+        style=dashed;
+        label=<
+            <table border="0" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffaa">2</td>
+                </tr>
+            </table>
+        >;
+    ];
 
-    1 -> 2 [style=bold; color=red];
+    0 -> 3 [
+        style=dashed;
+        fontsize=12;
+        label=<
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>∞</td>
+                </tr>
+            </table>
+        >;
+    ];
 
-    1 -> 4 [style=bold; color=red];
+    0 -> 4 [
+        style=dashed;
+        label=<
+            <table border="0" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffaa">2</td>
+                </tr>
+            </table>
+        >;
+    ];
 
-    2 -> 3 [color="#bbb"];
+    0 -> 5 [
+        style=dashed;
+        label=<
+            <table border="0" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td> 3</td>
+                </tr>
+            </table>
+        >;
+    ];
 
-    2 -> 5 [color="#bbb"];
+    1 -> 2 [
+        style=bold;
+        color=red;
+    ];
 
-    2 -> 6 [color="#bbb"];
+    1 -> 4 [
+        style=bold;
+        color=red;
+    ];
 
-    6 -> 5 [style=bold; color=skyblue];
+    2 -> 5 [
+        style=bold;
+        color=red;
+    ];
 
-    6 -> 7 [color="#bbb"];
+    3 -> 0 [
+        color="#bbb";
+    ];
 
-    7 -> 6 [style=bold; color=skyblue];
+    3 -> 5 [style=invis];
+    3 -> 4 [style=invis];
 }

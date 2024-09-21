@@ -3,15 +3,16 @@ digraph {
     edge [arrowsize=0.5, fontname="monospace", fontsize=9];
     layout=neato;
     mode="sgd";
-    maxiter=10000;
+    maxiter=100000;
+    scale=1.2;
     normalize=true;
     pad=0.2;
 
     0 -> 1 [
         label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>9</td>
+                    <td bgcolor="#ffffffcc">9</td>
                 </tr>
             </table>
         >
@@ -19,9 +20,9 @@ digraph {
 
     0 -> 2 [
         label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>3</td>
+                    <td bgcolor="#ffffffcc">3</td>
                 </tr>
             </table>
         >
@@ -29,9 +30,9 @@ digraph {
 
     1 -> 2 [
         label=<
-            <table border="0" cellborder="0" cellspacing="1">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>6</td>
+                    <td bgcolor="#ffffffcc">6</td>
                 </tr>
             </table>
         >
@@ -39,9 +40,9 @@ digraph {
 
     1 -> 3 [
         label=<
-            <table border="0" cellborder="0" cellspacing="2">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>2</td>
+                    <td bgcolor="#ffffffcc">2</td>
                 </tr>
             </table>
         >
@@ -49,9 +50,9 @@ digraph {
 
     2 -> 1 [
         label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>2</td>
+                    <td bgcolor="#ffffffcc">2</td>
                 </tr>
             </table>
         >
@@ -59,9 +60,9 @@ digraph {
 
     2 -> 4 [
         label=<
-            <table border="0" cellborder="0" cellspacing="4">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>1</td>
+                    <td bgcolor="#ffffffcc">1</td>
                 </tr>
             </table>
         >
@@ -69,9 +70,9 @@ digraph {
 
     3 -> 5 [
         label=<
-            <table border="0" cellborder="0" cellspacing="1">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>1</td>
+                    <td bgcolor="#ffffffcc">1</td>
                 </tr>
             </table>
         >
@@ -79,9 +80,9 @@ digraph {
 
     4 -> 2 [
         label=<
-            <table border="0" cellborder="0" cellspacing="3">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>2</td>
+                    <td bgcolor="#ffffffcc">2</td>
                 </tr>
             </table>
         >
@@ -89,9 +90,9 @@ digraph {
 
     4 -> 3 [
         label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>2</td>
+                    <td bgcolor="#ffffffcc">2</td>
                 </tr>
             </table>
         >
@@ -99,9 +100,9 @@ digraph {
 
     4 -> 5 [
         label=<
-            <table border="0" cellborder="0" cellspacing="0">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>7</td>
+                    <td bgcolor="#ffffffcc">7</td>
                 </tr>
             </table>
         >
@@ -109,9 +110,9 @@ digraph {
 
     5 -> 3 [
         label=<
-            <table border="0" cellborder="0" cellspacing="3">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
-                    <td>2</td>
+                    <td bgcolor="#ffffffcc">2</td>
                 </tr>
             </table>
         >
