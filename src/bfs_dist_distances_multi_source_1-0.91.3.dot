@@ -111,8 +111,8 @@ digraph {
 
     3 -> 0 [
         style="dashed, rounded";
-        label=<
-            <table border="0" cellpadding="1" cellspacing="1">
+        headlabel=<
+            <table border="0" cellpadding="3" cellspacing="7">
                 <tr>
                     <td bgcolor="#ffffffcc">1</td>
                 </tr>
@@ -126,8 +126,8 @@ digraph {
     ];
 
     3 -> 1 [
-        label=<
-            <table border="0" cellpadding="1" cellspacing="2">
+        headlabel=<
+            <table border="0" cellpadding="3" cellspacing="5">
                 <tr>
                     <td bgcolor="#ffffffcc">2</td>
                 </tr>
@@ -138,8 +138,8 @@ digraph {
 
     3 -> 4 [
         style="dashed, rounded";
-        label=<
-            <table border="0" cellpadding="1" cellspacing="2">
+        headlabel=<
+            <table border="0" cellpadding="3" cellspacing="5">
                 <tr>
                     <td bgcolor="#ffffffcc">3</td>
                 </tr>
@@ -149,10 +149,10 @@ digraph {
 
     3 -> 2 [
         style="dashed, rounded";
-        label=<
-            <table border="0" cellpadding="3" cellspacing="3">
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="8">
                 <tr>
-                    <td bgcolor="#ffffff">3</td>
+                    <td bgcolor="#ffffffcc">3</td>
                 </tr>
             </table>
         >,
@@ -196,8 +196,8 @@ digraph {
 
     7 -> 5 [
         style="dashed, rounded";
-        label=<
-            <table border="0" cellpadding="3" cellspacing="3">
+        headlabel=<
+            <table border="0" cellpadding="3" cellspacing="2">
                 <tr>
                     <td bgcolor="#ffffffcc">2</td>
                 </tr>
@@ -207,8 +207,8 @@ digraph {
 
     7 -> 6 [
         style="dashed, rounded";
-        label=<
-            <table border="0" cellpadding="3" cellspacing="2">
+        headlabel=<
+            <table border="0" cellpadding="3" cellspacing="6">
                 <tr>
                     <td bgcolor="#ffffffcc">1</td>
                 </tr>
