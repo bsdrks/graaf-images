@@ -23,8 +23,8 @@
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge">
 <title>0&#45;&gt;1</title>
-<path fill="none" stroke="blue" d="M96.25,-77.94C101.36,-77.94 107.01,-77.94 112.46,-77.94"/>
-<polygon fill="blue" stroke="blue" points="112.17,-80.04 118.17,-77.94 112.17,-75.84 112.17,-80.04"/>
+<path fill="none" stroke="skyblue" d="M96.25,-77.94C101.36,-77.94 107.01,-77.94 112.46,-77.94"/>
+<polygon fill="skyblue" stroke="skyblue" points="112.17,-80.04 118.17,-77.94 112.17,-75.84 112.17,-80.04"/>
 </g>
 <!-- 2 -->
 <g id="node3" class="node">
@@ -35,8 +35,8 @@
 <!-- 0&#45;&gt;2 -->
 <g id="edge2" class="edge">
 <title>0&#45;&gt;2</title>
-<path fill="none" stroke="blue" d="M77.94,-59.63C77.94,-54.52 77.94,-48.87 77.94,-43.42"/>
-<polygon fill="blue" stroke="blue" points="80.04,-43.71 77.94,-37.71 75.84,-43.71 80.04,-43.71"/>
+<path fill="none" stroke="skyblue" d="M77.94,-59.63C77.94,-54.52 77.94,-48.87 77.94,-43.42"/>
+<polygon fill="skyblue" stroke="skyblue" points="80.04,-43.71 77.94,-37.71 75.84,-43.71 80.04,-43.71"/>
 </g>
 <!-- 3 -->
 <g id="node4" class="node">
@@ -47,8 +47,8 @@
 <!-- 0&#45;&gt;3 -->
 <g id="edge3" class="edge">
 <title>0&#45;&gt;3</title>
-<path fill="none" stroke="blue" d="M59.63,-77.94C54.52,-77.94 48.87,-77.94 43.42,-77.94"/>
-<polygon fill="blue" stroke="blue" points="43.71,-75.84 37.71,-77.94 43.71,-80.04 43.71,-75.84"/>
+<path fill="none" stroke="skyblue" d="M59.63,-77.94C54.52,-77.94 48.87,-77.94 43.42,-77.94"/>
+<polygon fill="skyblue" stroke="skyblue" points="43.71,-75.84 37.71,-77.94 43.71,-80.04 43.71,-75.84"/>
 </g>
 <!-- 4 -->
 <g id="node5" class="node">
@@ -59,8 +59,8 @@
 <!-- 0&#45;&gt;4 -->
 <g id="edge4" class="edge">
 <title>0&#45;&gt;4</title>
-<path fill="none" stroke="blue" d="M77.94,-96.25C77.94,-101.36 77.94,-107.01 77.94,-112.45"/>
-<polygon fill="blue" stroke="blue" points="75.84,-112.17 77.94,-118.17 80.04,-112.17 75.84,-112.17"/>
+<path fill="none" stroke="skyblue" d="M77.94,-96.25C77.94,-101.36 77.94,-107.01 77.94,-112.45"/>
+<polygon fill="skyblue" stroke="skyblue" points="75.84,-112.17 77.94,-118.17 80.04,-112.17 75.84,-112.17"/>
 </g>
 <!-- 1&#45;&gt;2 -->
 <!-- 1&#45;&gt;4 -->

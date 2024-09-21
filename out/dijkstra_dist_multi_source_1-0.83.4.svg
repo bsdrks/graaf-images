@@ -46,7 +46,7 @@
 <!-- 6 -->
 <g id="node7" class="node">
 <title>6</title>
-<ellipse fill="none" stroke="blue" stroke-width="2" cx="254.31" cy="-165.1" rx="18" ry="18"/>
+<ellipse fill="none" stroke="skyblue" stroke-width="2" cx="254.31" cy="-165.1" rx="18" ry="18"/>
 <text text-anchor="middle" x="254.31" y="-160.42" font-family="monospace" font-size="14.00">6</text>
 </g>
 <!-- 1&#45;&gt;6 -->
@@ -74,7 +74,7 @@
 <!-- 5 -->
 <g id="node6" class="node">
 <title>5</title>
-<ellipse fill="none" stroke="blue" stroke-width="2" cx="42.94" cy="-63.3" rx="18" ry="18"/>
+<ellipse fill="none" stroke="skyblue" stroke-width="2" cx="42.94" cy="-63.3" rx="18" ry="18"/>
 <text text-anchor="middle" x="42.94" y="-58.63" font-family="monospace" font-size="14.00">5</text>
 </g>
 <!-- 4&#45;&gt;5 -->
@@ -87,7 +87,7 @@
 <!-- 3 -->
 <g id="node5" class="node">
 <title>3</title>
-<ellipse fill="none" stroke="blue" stroke-width="2" cx="19.7" cy="-165.1" rx="18" ry="18"/>
+<ellipse fill="none" stroke="skyblue" stroke-width="2" cx="19.7" cy="-165.1" rx="18" ry="18"/>
 <text text-anchor="middle" x="19.7" y="-160.42" font-family="monospace" font-size="14.00">3</text>
 </g>
 <!-- 3&#45;&gt;0 -->
@@ -100,8 +100,8 @@
 <!-- 3&#45;&gt;5 -->
 <g id="edge9" class="edge">
 <title>3&#45;&gt;5</title>
-<path fill="none" stroke="blue" stroke-width="2" d="M23.75,-147.36C27.49,-130.97 33.09,-106.45 37.27,-88.11"/>
-<polygon fill="blue" stroke="blue" stroke-width="2" points="38.9,-90.44 38.18,-84.12 34.8,-89.5 38.9,-90.44"/>
+<path fill="none" stroke="skyblue" stroke-width="2" d="M23.75,-147.36C27.49,-130.97 33.09,-106.45 37.27,-88.11"/>
+<polygon fill="skyblue" stroke="skyblue" stroke-width="2" points="38.9,-90.44 38.18,-84.12 34.8,-89.5 38.9,-90.44"/>
 <text text-anchor="start" x="19.01" y="-121.44" font-family="monospace" font-size="9.00">1 </text>
 <text text-anchor="start" x="13.86" y="-87.87" font-family="monospace" font-size="9.00"> d=1</text>
 <text text-anchor="start" x="4" y="-134.81" font-family="monospace" font-size="9.00">d=0</text>
@@ -109,8 +109,8 @@
 <!-- 5&#45;&gt;6 -->
 <g id="edge10" class="edge">
 <title>5&#45;&gt;6</title>
-<path fill="none" stroke="blue" stroke-width="2" d="M59.52,-71.29C96.95,-89.31 188.06,-133.19 231.08,-153.91"/>
-<polygon fill="blue" stroke="blue" stroke-width="2" points="228.76,-155.12 235.08,-155.83 230.58,-151.34 228.76,-155.12"/>
+<path fill="none" stroke="skyblue" stroke-width="2" d="M59.52,-71.29C96.95,-89.31 188.06,-133.19 231.08,-153.91"/>
+<polygon fill="skyblue" stroke="skyblue" stroke-width="2" points="228.76,-155.12 235.08,-155.83 230.58,-151.34 228.76,-155.12"/>
 <text text-anchor="start" x="139.05" y="-116.3" font-family="monospace" font-size="9.00">3</text>
 <text text-anchor="start" x="221.05" y="-136.34" font-family="monospace" font-size="9.00">d=4</text>
 </g>

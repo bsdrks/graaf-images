@@ -76,7 +76,7 @@
 <!-- 6 -->
 <g id="node7" class="node">
 <title>6</title>
-<ellipse fill="none" stroke="blue" stroke-width="2" cx="62.66" cy="-108" rx="18" ry="18"/>
+<ellipse fill="none" stroke="skyblue" stroke-width="2" cx="62.66" cy="-108" rx="18" ry="18"/>
 <text text-anchor="middle" x="62.66" y="-103.33" font-family="monospace" font-size="14.00">6</text>
 </g>
 <!-- 2&#45;&gt;6 -->
@@ -88,7 +88,7 @@
 <!-- 5 -->
 <g id="node8" class="node">
 <title>5</title>
-<ellipse fill="none" stroke="blue" stroke-width="2" cx="18" cy="-185.35" rx="18" ry="18"/>
+<ellipse fill="none" stroke="skyblue" stroke-width="2" cx="18" cy="-185.35" rx="18" ry="18"/>
 <text text-anchor="middle" x="18" y="-180.67" font-family="monospace" font-size="14.00">5</text>
 </g>
 <!-- 2&#45;&gt;5 -->
@@ -100,14 +100,14 @@
 <!-- 7 -->
 <g id="node6" class="node">
 <title>7</title>
-<ellipse fill="none" stroke="blue" stroke-width="2" cx="62.66" cy="-18" rx="18" ry="18"/>
+<ellipse fill="none" stroke="skyblue" stroke-width="2" cx="62.66" cy="-18" rx="18" ry="18"/>
 <text text-anchor="middle" x="62.66" y="-13.32" font-family="monospace" font-size="14.00">7</text>
 </g>
 <!-- 7&#45;&gt;6 -->
 <g id="edge10" class="edge">
 <title>7&#45;&gt;6</title>
-<path fill="none" stroke="blue" stroke-width="2" d="M57.2,-35.35C55.73,-48.96 55.51,-68.08 56.56,-83.28"/>
-<polygon fill="blue" stroke="blue" stroke-width="2" points="54.3,-81.58 56.91,-87.38 58.49,-81.22 54.3,-81.58"/>
+<path fill="none" stroke="skyblue" stroke-width="2" d="M57.2,-35.35C55.73,-48.96 55.51,-68.08 56.56,-83.28"/>
+<polygon fill="skyblue" stroke="skyblue" stroke-width="2" points="54.3,-81.58 56.91,-87.38 58.49,-81.22 54.3,-81.58"/>
 <text text-anchor="middle" x="44.05" y="-81.84" font-family="monospace" font-size="9.00">p=7 &#160;</text>
 <text text-anchor="middle" x="45.57" y="-38.05" font-family="monospace" font-size="9.00">p=⊥ &#160;</text>
 </g>
@@ -120,8 +120,8 @@
 <!-- 6&#45;&gt;5 -->
 <g id="edge8" class="edge">
 <title>6&#45;&gt;5</title>
-<path fill="none" stroke="blue" stroke-width="2" d="M53.62,-123.65C47.07,-135.01 38.11,-150.52 30.82,-163.15"/>
-<polygon fill="blue" stroke="blue" stroke-width="2" points="29.87,-160.59 28.69,-166.83 33.51,-162.69 29.87,-160.59"/>
+<path fill="none" stroke="skyblue" stroke-width="2" d="M53.62,-123.65C47.07,-135.01 38.11,-150.52 30.82,-163.15"/>
+<polygon fill="skyblue" stroke="skyblue" stroke-width="2" points="29.87,-160.59 28.69,-166.83 33.51,-162.69 29.87,-160.59"/>
 <text text-anchor="middle" x="42.93" y="-160.9" font-family="monospace" font-size="9.00"> &#160;&#160;p=6</text>
 </g>
 </g>
