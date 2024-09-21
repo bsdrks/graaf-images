@@ -146,6 +146,17 @@ digraph {
         color="#bbb";
     ];
 
+    0 -> 1 [
+        style=dashed;
+        label=<
+            <table border="0" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffaa">1</td>
+                </tr>
+            </table>
+        >;
+    ];
+
     3 -> 5 [style=invis];
     3 -> 4 [style=invis];
 }
