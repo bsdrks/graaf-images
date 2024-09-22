@@ -82,6 +82,7 @@ digraph {
             </table>
         >,
         color=skyblue,
+        fontcolor=white,
         style=filled,
     ];
 
@@ -94,6 +95,7 @@ digraph {
             </table>
         >,
         color=skyblue,
+        fontcolor=white,
         style=filled,
     ];
 
@@ -106,6 +108,7 @@ digraph {
             </table>
         >,
         color=skyblue,
+        fontcolor=white,
         style=filled,
     ];
 
@@ -121,7 +124,7 @@ digraph {
     ];
 
     3 -> 0 [
-        color=red;
+        color=salmon;
         style=bold;
     ];
 
@@ -159,17 +162,17 @@ digraph {
     ];
 
     0 -> 1 [
-        color=red;
+        color=salmon;
         style=bold;
     ];
 
     1 -> 2 [
-        color=red;
+        color=salmon;
         style=bold;
     ];
 
     1 -> 4 [
-        color=red;
+        color=salmon;
         style=bold;
     ];
 

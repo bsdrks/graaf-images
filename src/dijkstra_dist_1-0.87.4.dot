@@ -84,7 +84,7 @@ digraph {
                     <td>5</td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(5)=4</font></td>
+                    <td><font point-size="9">d(5)=5</font></td>
                 </tr>
             </table>
         >;
@@ -97,7 +97,7 @@ digraph {
                     <td>6</td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">d(6)=5</font></td>
+                    <td><font point-size="9">d(6)=6</font></td>
                 </tr>
             </table>
         >;

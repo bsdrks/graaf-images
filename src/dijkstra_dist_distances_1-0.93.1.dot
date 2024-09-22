@@ -1,0 +1,240 @@
+digraph {
+    node [shape=circle, fontname="monospace", fixedsize=true, width="0.50"];
+    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    layout=neato;
+    mode="sgd";
+    scale=1.2;
+    normalize=true;
+    maxiter=100000;
+    pad=0.2;
+    overlap=false;
+    // splines=line
+
+    3 [color="#bbb", fontcolor="#bbb"];
+    0, 1, 2, 4, 5, 6 [style=bold, color=red];
+
+    0 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffcc">0</td>
+                </tr>
+            </table>
+        >;
+        color=red;
+        style=bold
+    ];
+
+    1 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffcc">1</td>
+                </tr>
+            </table>
+        >;
+        color=red;
+        style=bold
+    ];
+
+    2 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffcc">2</td>
+                </tr>
+            </table>
+        >;
+    ];
+
+    3 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffcc">3</td>
+                </tr>
+            </table>
+        >;
+    ];
+
+    4 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffcc">4</td>
+                </tr>
+            </table>
+        >;
+    ];
+
+    5 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffcc">5</td>
+                </tr>
+            </table>
+        >;
+    ];
+
+    6 [
+        label=<
+            <table border="0" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td bgcolor="#ffffffcc">6</td>
+                </tr>
+            </table>
+        >;
+    ];
+
+    0 -> 1 [
+        color=red;
+        style=bold;
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="7">
+                <tr>
+                    <td bgcolor="#ffffffcc">1</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    1 -> 2 [
+        style=bold; 
+        color=red; 
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="3">
+                <tr>
+                    <td bgcolor="#ffffffcc">1</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    1 -> 6 [
+        color="#bbb";
+        fontcolor="#bbb";
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="4">
+                <tr>
+                    <td bgcolor="#ffffffcc">6</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    2 -> 4 [
+        style=bold; 
+        color=red; 
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="7">
+                <tr>
+                    <td bgcolor="#ffffffcc">1</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    3 -> 0 [
+        color="#bbb";
+        fontcolor="#bbb";
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="4">
+                <tr>
+                    <td bgcolor="#ffffffcc">2</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    4 -> 5 [
+        style=bold; 
+        color=red; 
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="3">
+                <tr>
+                    <td bgcolor="#ffffffcc">2</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    5 -> 6 [
+        style=bold; 
+        color=red; 
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="5">
+                <tr>
+                    <td bgcolor="#ffffffcc">1</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 3 [
+        style=dashed;
+        fontsize=12;
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="1">
+                <tr>
+                    <td bgcolor="#ffffffcc">∞</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 1 [
+        style=dashed;
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="2">
+                <tr>
+                    <td bgcolor="#ffffffcc">1</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 2 [
+        style=dashed;
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="4">
+                <tr>
+                    <td bgcolor="#ffffffcc">2</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 4 [
+        style=dashed;
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="7">
+                <tr>
+                    <td bgcolor="#ffffffcc">3</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 5 [
+        style=dashed;
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="6">
+                <tr>
+                    <td bgcolor="#ffffffcc">5</td>
+                </tr>
+            </table>
+        >
+    ];
+
+    0 -> 6 [
+        style=dashed;
+        headlabel=<
+            <table border="0" cellpadding="2" cellspacing="6">
+                <tr>
+                    <td bgcolor="#ffffffcc">6</td>
+                </tr>
+            </table>
+        >
+    ];
+}
