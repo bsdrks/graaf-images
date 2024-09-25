@@ -2,13 +2,10 @@ digraph {
     node [shape=circle, fontname="monospace", style=bold; fixedsize=true, width="0.5"];
     edge [arrowsize=0.6, fontname="monospace", fontsize=9];
     layout=neato;
-    mode="sgd";
     scale=1.2;
     maxiter=100000;
-    ranksep=0.2;
+    mode="sgd";
     normalize=true;
-    overlap=false;
-    overlap_scaling=1.6;
     pad=0.2;
 
     0, 1, 2, 4 [color=red];
@@ -16,7 +13,7 @@ digraph {
 
     0 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0">
                 <tr>
                     <td>0</td>
                 </tr>
@@ -28,7 +25,7 @@ digraph {
 
     1 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0">
                 <tr>
                     <td>1</td>
                 </tr>
@@ -40,7 +37,7 @@ digraph {
 
     2 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0">
                 <tr>
                     <td>2</td>
                 </tr>
@@ -50,7 +47,7 @@ digraph {
 
     3 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0">
                 <tr>
                     <td>3</td>
                 </tr>
@@ -60,7 +57,7 @@ digraph {
 
     4 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0">
                 <tr>
                     <td>4</td>
                 </tr>
@@ -70,7 +67,7 @@ digraph {
 
     5 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0">
                 <tr>
                     <td>5</td>
                 </tr>
@@ -80,14 +77,13 @@ digraph {
 
     6 [
         label=<
-            <table border="0" cellpadding="1" cellspacing="0">
+            <table border="0">
                 <tr>
                     <td>6</td>
                 </tr>
             </table>
         >;
     ];
-
 
     0 -> 1 [
         color=red,
@@ -117,9 +113,9 @@ digraph {
         color="#bbb",
         fontcolor="#bbb",
         headlabel=<
-            <table border="0" cellpadding="2" cellspacing="6">
+            <table border="0" cellpadding="0" cellspacing="8">
                 <tr>
-                    <td bgcolor="#ffffffcc">6</td>
+                    <td bgcolor="#ffffffcc">5</td>
                 </tr>
             </table>
         >,
@@ -129,7 +125,7 @@ digraph {
         style=bold, 
         color=red, 
         headlabel=<
-            <table border="0" cellpadding="3" cellspacing="4">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
                     <td bgcolor="#ffffffcc">1</td>
                 </tr>
@@ -141,7 +137,7 @@ digraph {
         color="#bbb",
         fontcolor="#bbb",
         headlabel=<
-            <table border="0" cellpadding="2" cellspacing="6">
+            <table border="0" cellpadding="1" cellspacing="8">
                 <tr>
                     <td bgcolor="#ffffffcc">2</td>
                 </tr>
@@ -165,7 +161,7 @@ digraph {
         style=bold, 
         color=skyblue, 
         headlabel=<
-            <table border="0" cellpadding="2" cellspacing="7">
+            <table border="0" cellpadding="2" cellspacing="3">
                 <tr>
                     <td bgcolor="#ffffffcc">1</td>
                 </tr>
@@ -177,7 +173,7 @@ digraph {
         style=bold, 
         color=skyblue, 
         headlabel=<
-            <table border="0" cellpadding="2" cellspacing="6">
+            <table border="0" cellpadding="1" cellspacing="7">
                 <tr>
                     <td bgcolor="#ffffffcc">3</td>
                 </tr>
@@ -185,58 +181,23 @@ digraph {
         >,
     ];
 
-    0 -> 1 [
+    1 -> 0 [
         style=dashed;
-        headlabel=<
-            <table border="0" cellpadding="3" cellspacing="3">
-                <tr>
-                    <td bgcolor="#ffffffcc">1</td>
-                </tr>
-            </table>
-        >,
     ];
 
-    0 -> 2 [
+    2 -> 1 [
         style=dashed;
-        headlabel=<
-            <table border="0" cellpadding="3" cellspacing="5">
-                <tr>
-                    <td bgcolor="#ffffffcc">2</td>
-                </tr>
-            </table>
-        >,
     ];
 
-    0 -> 4 [
+    4 -> 2 [
         style=dashed;
-        headlabel=<
-            <table border="0" cellpadding="3" cellspacing="6">
-                <tr>
-                    <td bgcolor="#ffffffcc">3</td>
-                </tr>
-            </table>
-        >,
     ];
 
-    3 -> 5 [
+    5 -> 3 [
         style=dashed;
-        headlabel=<
-            <table border="0" cellpadding="3" cellspacing="4">
-                <tr>
-                    <td bgcolor="#ffffffcc">1</td>
-                </tr>
-            </table>
-        >,
     ];
 
-    3 -> 6 [
+    6 -> 5 [
         style=dashed;
-        headlabel=<
-            <table border="0" cellpadding="3" cellspacing="5">
-                <tr>
-                    <td bgcolor="#ffffffcc">4</td>
-                </tr>
-            </table>
-        >,
     ];
 }

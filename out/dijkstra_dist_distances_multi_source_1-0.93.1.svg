@@ -84,7 +84,7 @@
 <path fill="none" stroke="#bbbbbb" d="M196.93,-121.78C187.46,-138.17 172.6,-163.89 161.95,-182.3"/>
 <polygon fill="#bbbbbb" stroke="#bbbbbb" points="160.18,-181.17 159,-187.42 163.82,-183.27 160.18,-181.17"/>
 <polygon fill="#ffffff" fill-opacity="0.800000" stroke="none" points="164.24,-167.48 164.24,-182.73 173.49,-182.73 173.49,-167.48 164.24,-167.48"/>
-<text text-anchor="start" x="166.24" y="-172.18" font-family="monospace" font-size="9.00" fill="#bbbbbb">5</text>
+<text text-anchor="start" x="166.24" y="-172.18" font-family="monospace" font-size="9.00" fill="#bbbbbb">6</text>
 </g>
 <!-- 2&#45;&gt;4 -->
 <g id="edge4" class="edge">
