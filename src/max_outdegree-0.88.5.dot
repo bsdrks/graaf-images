@@ -1,7 +1,7 @@
 digraph {
     node [
         fixedsize=true;
-        fontname="monospace";
+        fontname=monospace;
         shape=circle;
         width="0.75";
     ];
@@ -10,8 +10,11 @@ digraph {
         arrowsize=0.6;
     ];
 
+    color=black;
+    fontcolor=black;
+    bgcolor=white;
     layout=neato;
-    mode="sgd";
+    mode=sgd;
     normalize=true;
     pad=0.2;
     scale=1.2;

@@ -1,5 +1,5 @@
 digraph {
-    node [shape=plaintext, fontname="monospace", fixedsize=true, width=0.6, height=0.6, color=white];
+    node [shape=plaintext, fontname=monospace, fixedsize=true, width=0.6, height=0.6, color=white];
     pad=0.2;
     nodesep=0.1;
     ranksep=0.1
@@ -33,7 +33,7 @@ digraph {
     /// assert!(dist[4].eq(&[16, 15, 3, 16, 0, 17, 7]));
     /// assert!(dist[5].eq(&[10, 9, 6, 10, 11, 0, 1]));
     /// assert!(dist[6].eq(&[9, 8, 5, 9, 10, 10, 0]));
-    // 8, 9, 13, 16, 17, 25, 27, 32 [style=filled, color="gray", fontcolor="white", label="1"];
+    // 8, 9, 13, 16, 17, 25, 27, 32 [style=filled, color=gray, fontcolor=white, label="1"];
 
     9, 18, 27, 36, 45, 54, 63 [color="#eee", fontcolor="#999", label="0"];
     10 [label="5"];

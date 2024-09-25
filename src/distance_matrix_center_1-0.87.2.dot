@@ -1,7 +1,8 @@
 digraph {
-    node [shape=circle, fontname="monospace", style=bold, fixedsize=true, width="0.75"];
-    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
-    // layout=neato;
+    node [shape=circle, fontname=monospace, style=bold, fixedsize=true, width="0.75"];
+    edge [arrowsize=0.6, fontname=monospace, fontsize=9];
+    // bgcolor=white;
+    layout=neato;
     // scale=3.0;
     normalize=true;
     pad=0.2;
@@ -16,7 +17,7 @@ digraph {
                     <td>0</td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">e(0)=<font color="red">5</font></font></td>
+                    <td><font point-size="9">e(0)=<font color=red>5</font></font></td>
                 </tr>
             </table>
         >,
@@ -31,7 +32,7 @@ digraph {
                     <td>1</td>
                 </tr>
                 <tr>
-                    <td><font point-size="9">e(1)=<font color="red">5</font></font></td>
+                    <td><font point-size="9">e(1)=<font color=red>5</font></font></td>
                 </tr>
             </table>
         >,

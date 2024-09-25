@@ -1,10 +1,13 @@
 digraph {
-    node [shape=circle, fontname="monospace", style=bold; fixedsize=true, width="0.75"];
-    edge [arrowsize=0.6, fontname="monospace", fontsize=9];
+    node [shape=circle, fontname=monospace, style=bold; fixedsize=true, width="0.75"];
+    edge [arrowsize=0.6, fontname=monospace, fontsize=9];
+    color=black;
+    fontcolor=black;
+    bgcolor=white;
     layout=neato;
     scale=1.2;
     maxiter=100000;
-    mode="sgd";
+    mode=sgd;
     normalize=true;
     pad=0.2;
 

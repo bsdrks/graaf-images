@@ -1,9 +1,9 @@
 digraph {
     node [
         fixedsize=true;
-        fontname="monospace";
+        fontname=monospace;
         shape=circle;
-        width="0.5";
+        width=0.5;
     ];
 
     edge [
@@ -12,8 +12,11 @@ digraph {
         dir=both;
     ];
 
+    color=black;
+    fontcolor=black;
+    bgcolor=white;
     layout=neato;
-    mode="sgd";
+    mode=sgd;
     maxiter=10000;
     normalize=true;
     pad=0.2;
