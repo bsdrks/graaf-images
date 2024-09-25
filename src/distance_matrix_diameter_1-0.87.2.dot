@@ -1,13 +1,11 @@
 digraph {
     node [shape=circle, fontname=monospace, style=bold, fixedsize=true, width="0.85"];
     edge [arrowsize=0.6, fontname=monospace, fontsize=9];
-    // bgcolor=white;
-    layout=neato;
-    // scale=3.0;
-    normalize=true;
+    bgcolor=white;
+    color=black;
+    fontcolor=black;
+    layout=dot;
     pad=0.2;
-    // newrank=true;
-    // splines=line
     ranksep=0.2;
 
     0 [

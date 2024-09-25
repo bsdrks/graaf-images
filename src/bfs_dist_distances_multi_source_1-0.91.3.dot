@@ -116,7 +116,7 @@ digraph {
     ];
 
     3 -> 0 [
-        style="dashed, rounded";
+        style="dashed";
         headlabel=<
             <table border="0" cellpadding="3" cellspacing="7">
                 <tr>
@@ -139,11 +139,11 @@ digraph {
                 </tr>
             </table>
         >,
-        style="dashed, rounded";
+        style="dashed";
     ];
 
     3 -> 4 [
-        style="dashed, rounded";
+        style="dashed";
         headlabel=<
             <table border="0" cellpadding="3" cellspacing="5">
                 <tr>
@@ -154,7 +154,7 @@ digraph {
     ];
 
     3 -> 2 [
-        style="dashed, rounded";
+        style="dashed";
         headlabel=<
             <table border="0" cellpadding="2" cellspacing="8">
                 <tr>
@@ -201,7 +201,7 @@ digraph {
     ];
 
     7 -> 5 [
-        style="dashed, rounded";
+        style="dashed";
         headlabel=<
             <table border="0" cellpadding="3" cellspacing="2">
                 <tr>
@@ -212,7 +212,7 @@ digraph {
     ];
 
     7 -> 6 [
-        style="dashed, rounded";
+        style="dashed";
         headlabel=<
             <table border="0" cellpadding="3" cellspacing="6">
                 <tr>

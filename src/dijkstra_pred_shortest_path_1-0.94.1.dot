@@ -11,9 +11,8 @@ digraph {
     maxiter=100000;
     pad=0.2;
 
-    3 [color="#bbb", fontcolor="#bbb"];
+    3, 6 [color="#bbb", fontcolor="#bbb"];
     0, 1, 2, 4, 5 [style=bold, color=red];
-    6 [color="#bbb", fontcolor="#bbb", style=normal];
 
     0 [
         label=<

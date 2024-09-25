@@ -3,7 +3,7 @@ digraph {
         fixedsize=true;
         fontname=monospace;
         shape=circle;
-        width="0.75";
+        width=0.75;
     ];
 
     edge [

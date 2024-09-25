@@ -1,5 +1,5 @@
 digraph {
-    node [shape=circle, fontname=monospace, style=bold; fixedsize=true, width=0.5];
+    node [shape=circle, fontname=monospace, fixedsize=true, width=0.5];
     edge [arrowsize=0.6, fontname=monospace, fontsize=9];
     color=black;
     fontcolor=black;
@@ -11,9 +11,9 @@ digraph {
     normalize=true;
     pad=0.2;
 
-    0, 1, 2 [color=red];
-    3, 5, 6 [color=skyblue];
-    4 [color="#bbb", fontcolor="#bbb", style=normal];
+    0, 1, 2 [color=red; style=bold];
+    3, 5, 6 [color=skyblue; style=bold];
+    4 [color="#bbb", fontcolor="#bbb"];
 
     0 [
         label=<
